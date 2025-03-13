@@ -40,8 +40,7 @@
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6449563648591184"
 	     crossorigin="anonymous"></script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    	     
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -58,33 +57,21 @@
         }
         .choice {
             display: block;
-            width: 100%;
             padding: 10px;
-            margin: 5px 0;
+            margin: 5px;
             cursor: pointer;
-            border: none;
+            border: 1px solid #ccc;
             border-radius: 5px;
-            transition: 0.3s;
+            background-color: #f9f9f9;
         }
-        .choice:hover {
-            background-color: #f0f0f0;
+        .choice.selected {
+            background-color: #c3e6cb; /* Green highlight for selected answers */
         }
-        .correct {
-            background-color: #4CAF50 !important;
-            color: white;
-        }
-        .incorrect {
-            background-color: #FF5733 !important;
-            color: white;
-        }
-        #answer {
-            font-weight: bold;
+        .button-container {
             margin-top: 10px;
         }
-        button#next {
-            margin-top: 10px;
-            padding: 10px;
-            cursor: pointer;
+        .hidden {
+            display: none;
         }
     </style>
 </head>
@@ -93,15 +80,17 @@
 <div class="quiz-container">
     <h2 id="question">Loading question...</h2>
     <div id="choices"></div>
-    <p id="answer"></p>
-    <button id="next" style="display:none;">Next Question</button>
-    <button id="quit">Quit</button>
+    <div class="button-container">
+        <button id="submit" class="hidden">Submit Answer</button>
+        <button id="next" class="hidden">Next Question</button>
+    </div>
+    <p id="feedback" class="hidden"></p>
 </div>
 
 <script>
     let questions = [];
-    let selectedQuestion = null;
-    let correctAnswers = [];
+    let currentQuestion = null;
+    let selectedAnswers = [];
 
     function loadQuestion() {
         if (questions.length === 0) {
@@ -110,33 +99,39 @@
         }
 
         let randomIndex = Math.floor(Math.random() * questions.length);
-        selectedQuestion = questions[randomIndex];
+        currentQuestion = questions[randomIndex];
 
-        $("#question").text(selectedQuestion.question);
+        $("#question").text(currentQuestion.question);
         $("#choices").empty();
-        $("#answer").empty();
-        $("#next").hide();
+        $("#feedback").addClass("hidden").text("");
+        $("#submit").addClass("hidden");
+        $("#next").addClass("hidden");
+        selectedAnswers = [];
 
-        correctAnswers = selectedQuestion.correctAnswers || []; 
-
-        selectedQuestion.choices.forEach((choice, index) => {
-            $("#choices").append(`<button class="choice" data-answer="${choice}">${choice}</button>`);
+        currentQuestion.choices.forEach((choice, index) => {
+            $("#choices").append(`<div class="choice" data-index="${index}">${choice}</div>`);
         });
 
         $(".choice").click(function() {
-            let selectedAnswer = $(this).data("answer");
-
-            if (correctAnswers.includes(selectedAnswer)) {
-                $(this).addClass("correct");
+            let index = $(this).data("index");
+            if (selectedAnswers.includes(index)) {
+                selectedAnswers = selectedAnswers.filter(i => i !== index);
+                $(this).removeClass("selected");
             } else {
-                $(this).addClass("incorrect");
+                selectedAnswers.push(index);
+                $(this).addClass("selected");
             }
-
-            // Show full explanation
-            $("#answer").text(selectedQuestion.fullText);
-            $(".choice").prop("disabled", true); // Disable further selections
-            $("#next").show();
+            $("#submit").removeClass("hidden");
         });
+    }
+
+    function checkAnswer() {
+        let correctAnswers = currentQuestion.correctAnswers || []; // Array of correct answer indices
+        let isCorrect = JSON.stringify(selectedAnswers.sort()) === JSON.stringify(correctAnswers.sort());
+
+        $("#feedback").removeClass("hidden").text(isCorrect ? "✅ Correct!" : "❌ Incorrect! Correct answers: " + correctAnswers.map(i => currentQuestion.choices[i]).join(", "));
+        $("#submit").addClass("hidden");
+        $("#next").removeClass("hidden");
     }
 
     function fetchQuestions() {
@@ -148,23 +143,10 @@
         });
     }
 
-    $("#quit").click(function() {
-        $.ajax({
-            url: "/quit", 
-            method: "POST",
-            success: function(response) {
-                alert("You have quit the quiz.");
-            }
-        });
-    });
+    $("#submit").click(checkAnswer);
+    $("#next").click(loadQuestion);
 
-    $("#next").click(function() {
-        loadQuestion();
-    });
-
-    $(document).ready(function() {
-        fetchQuestions();
-    });
+    $(document).ready(fetchQuestions);
 </script>
 
 </body>
