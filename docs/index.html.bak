@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Quiz</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .quiz-container {
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+        button {
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="quiz-container">
+    <h2 id="question">Loading question...</h2>
+    <div id="choices"></div>
+    <button id="quit">Quit</button>
+</div>
+
+<script>
+    let questions = [];
+
+    function loadQuestion() {
+        if (questions.length === 0) {
+            $("#question").text("No questions available.");
+            return;
+        }
+
+        let randomIndex = Math.floor(Math.random() * questions.length);
+        let selectedQuestion = questions[randomIndex];
+
+        $("#question").text(selectedQuestion.question);
+        $("#choices").empty();
+
+        selectedQuestion.choices.forEach((choice, index) => {
+            $("#choices").append(`<button class="choice" data-answer="${choice}">${choice}</button><br>`);
+        });
+
+        $(".choice").click(function() {
+            alert(selectedQuestion.fullText);
+            loadQuestion();
+        });
+    }
+
+    function fetchQuestions() {
+        $.getJSON("questions.json", function(data) {
+            questions = data;
+            loadQuestion();
+        }).fail(function() {
+            $("#question").text("Failed to load questions.");
+        });
+    }
+
+    $("#quit").click(function() {
+        $.ajax({
+            url: "/quit", 
+            method: "POST",
+            success: function(response) {
+                alert("You have quit the quiz.");
+            }
+        });
+    });
+
+    $(document).ready(function() {
+        fetchQuestions();
+    });
+</script>
+
+</body>
+</html>
