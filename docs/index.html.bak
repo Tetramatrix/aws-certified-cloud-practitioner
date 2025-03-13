@@ -36,8 +36,12 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="https://tetramatrix.github.io/aws-certified-cloud-practitioner/favicon.png">
     
-    
+    <meta name="google-site-verification" content="pETgPUZdQjRlsCKUIPsVusPSGZtduaNKm09OOk69Oec" />
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6449563648591184"
+	     crossorigin="anonymous"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    	     
     <style>
         body {
             font-family: Arial, sans-serif;
