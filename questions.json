@@ -1,0 +1,2735 @@
+[
+  {
+    "question": "What time-savings advantage is offered with the use of Amazon Rekognition?",
+    "choices": [
+      "A. It automatically scales resources based on demand.",
+      "B. It provides automatic detection of objects appearing in pictures.",
+      "C. It offers a managed environment for deploying applications.",
+      "D. It allows for the creation of virtual private networks."
+    ],
+    "fullText": "The correct answer is B"
+  },
+  {
+    "question": "When comparing AWS with on-premises Total Cost of Ownership (TCO), what costs are included?",
+    "choices": [
+      "A. Data center security",
+      "B. Application development",
+      "C. Marketing expenses",
+      "D. Office supplies"
+    ],
+    "fullText": "The correct answer is A. Data center security."
+  },
+  {
+    "question": "According to the AWS shared responsibility model, what is AWS responsible for?",
+    "choices": [
+      "A. Managing user access and permissions",
+      "B. Encrypting customer data",
+      "C. Configuring security groups",
+      "D. Managing the network infrastructure"
+    ],
+    "fullText": "Correct! AWS is responsible for managing the network infrastructure."
+  },
+  {
+    "question": "Which service should be used to estimate the costs of running a new project on AWS?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS CloudFormation",
+      "C. AWS Cost Explorer API",
+      "D. AWS CloudTrail"
+    ],
+    "fullText": "The correct answer is C"
+  },
+  {
+    "question": "Which AWS tool will identify security groups that grant unrestricted Internet access to a limited list of ports?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Trusted Advisor",
+      "C. AWS Inspector",
+      "D. AWS Config"
+    ],
+    "fullText": "The correct answer is B. AWS Trusted Advisor."
+  },
+  {
+    "question": "Which AWS service can be used to generate alerts based on an estimated monthly bill?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. Amazon CloudWatch",
+      "C. AWS Config",
+      "D. AWS Inspector"
+    ],
+    "fullText": "The correct answer is B"
+  },
+  {
+    "question": "Which Amazon EC2 pricing model offers the MOST significant discount when compared to On-Demand Instances?",
+    "choices": [
+      "A. Spot Instances",
+      "B. Partial Upfront Reserved Instances for a 1-year term",
+      "C. All Upfront Reserved Instances for a 3-year term",
+      "D. No Upfront Reserved Instances for a 3-year term"
+    ],
+    "fullText": "The correct answer is C"
+  },
+  {
+    "question": "Which of the following is the responsibility of AWS?",
+    "choices": [
+      "A. Managing user access and permissions",
+      "B. Physically destroying storage media at end of life",
+      "C. Configuring security groups",
+      "D. Patching the guest operating system"
+    ],
+    "fullText": "The correct answer is B"
+  },
+  {
+    "question": "Which AWS service would a customer use with a static website to achieve lower latency and high transfer speeds?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon DynamoDB",
+      "C. AWS Lambda",
+      "D. Amazon CloudFront"
+    ],
+    "fullText": "The correct answer is D"
+  },
+  {
+    "question": "What AWS service handles the deployment details of capacity provisioning, load balancing, Auto Scaling, and application health monitoring?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Elastic Beanstalk",
+      "C. AWS OpsWorks",
+      "D. AWS CodeDeploy"
+    ],
+    "fullText": "The correct answer is B"
+  },
+  {
+    "question": "Which AWS service provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Elastic Beanstalk",
+      "C. Amazon VPC",
+      "D. AWS Lambda"
+    ],
+    "fullText": "The correct answer is C"
+  },
+  {
+    "question": "When a company provisions web servers in multiple AWS Regions, what is being increased?",
+    "choices": [
+      "A. Security",
+      "B. Availability",
+      "C. Cost",
+      "D. Latency"
+    ],
+    "fullText": "The correct answer is B"
+  },
+  {
+    "question": "The pay-as-you-go pricing model for AWS services:",
+    "choices": [
+      "A. Increases capital expenditures.",
+      "B. Reduces capital expenditures.",
+      "C. Requires long-term contracts.",
+      "D. Charges a flat monthly fee."
+    ],
+    "fullText": "The correct answer is B"
+  },
+  {
+    "question": "Which AWS service offers on-demand access to AWS security and compliance reports?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Artifact",
+      "C. AWS Config",
+      "D. AWS Inspector"
+    ],
+    "fullText": "The correct answer is B"
+  },
+  {
+    "question": "What are the benefits of using the AWS Cloud for companies with customers in many countries around the world? (Choose two.)",
+    "choices": [
+      "A. Companies can deploy applications in multiple AWS Regions to reduce latency.",
+      "B. AWS offers a fixed pricing model for all regions.",
+      "C. Amazon CloudFront has multiple edge locations around the world to reduce latency.",
+      "D. AWS provides free data transfer between regions."
+    ],
+    "fullText": "Correct! Companies can deploy applications in multiple AWS Regions to reduce latency, and Amazon CloudFront has multiple edge locations around the world to reduce latency."
+  },
+  {
+    "question": "Which AWS service provides VPN connectivity to a VPC using IPSec VPN tunnels?",
+    "choices": [
+      "A. AWS Direct Connect",
+      "B. AWS Transit Gateway",
+      "C. AWS VPN",
+      "D. AWS Global Accelerator"
+    ],
+    "fullText": "Correct! AWS VPN provides VPN connectivity to a VPC using IPSec VPN tunnels."
+  },
+  {
+    "question": "How can one AWS account use Reserved Instances from another AWS account?",
+    "choices": [
+      "A. By using AWS Direct Connect",
+      "B. By using AWS Organizations consolidated billing",
+      "C. By using AWS CloudFormation",
+      "D. By using AWS IAM roles"
+    ],
+    "fullText": "Correct! By using AWS Organizations consolidated billing, one AWS account can use Reserved Instances from another AWS account."
+  },
+  {
+    "question": "A customer runs an On-Demand Amazon Linux EC2 instance for 3 hours, 5 minutes, and 6 seconds. For how much time will the customer be billed?",
+    "choices": [
+      "A. 3 hours",
+      "B. 3 hours, 5 minutes, and 6 seconds",
+      "C. 4 hours",
+      "D. 3 hours and 5 minutes"
+    ],
+    "fullText": "Correct! A customer running an On-Demand Amazon Linux EC2 instance for 3 hours, 5 minutes, and 6 seconds will be billed for 3 hours, 5 minutes, and 6 seconds."
+  },
+  {
+    "question": "Which of the following allows users to provision a dedicated network connection from their internal network to AWS?",
+    "choices": [
+      "A. AWS VPN",
+      "B. AWS Direct Connect",
+      "C. AWS Transit Gateway",
+      "D. AWS Global Accelerator"
+    ],
+    "fullText": "Correct! AWS Direct Connect allows users to provision a dedicated network connection from their internal network to AWS."
+  },
+  {
+    "question": "Which services use AWS edge locations? (Choose two.)",
+    "choices": [
+      "A. Amazon CloudFront",
+      "B. AWS Shield",
+      "C. AWS Lambda",
+      "D. Amazon RDS"
+    ],
+    "fullText": "The correct answers are A. Amazon CloudFront and B. AWS Shield."
+  },
+  {
+    "question": "Which of the following can an AWS customer use to launch a new Amazon Relational Database Service (Amazon RDS) cluster? (Select TWO)",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS CloudFormation",
+      "C. AWS CloudTrail",
+      "D. AWS Config",
+      "E. AWS Management Console"
+    ],
+    "fullText": "Correct! AWS customers can use the AWS CloudFormation service or the AWS Management Console to launch a new Amazon RDS cluster."
+  },
+  {
+    "question": "Which of the following Reserved Instance (RI) pricing models provides the highest average savings compared to On-Demand pricing?",
+    "choices": [
+      "A. One-year, Partial Upfront, Standard RI",
+      "B. Three-year, Partial Upfront, Convertible RI",
+      "C. Three-year, All Upfront, Standard RI",
+      "D. One-year, No Upfront, Standard RI"
+    ],
+    "fullText": "Correct! The three-year, All Upfront, Standard RI pricing model provides the highest average savings compared to On-Demand pricing."
+  },
+  {
+    "question": "Which of the following are features of Amazon CloudWatch Logs? (Select TWO)",
+    "choices": [
+      "A. Automatic scaling of resources",
+      "B. Load balancing",
+      "C. Data encryption at rest",
+      "D. Real-time monitoring",
+      "E. Adjustable log retention"
+    ],
+    "fullText": "Correct! Amazon CloudWatch Logs provide real-time monitoring and adjustable log retention."
+  },
+  {
+    "question": "Which of the following is an AWS-managed compute service?",
+    "choices": [
+      "A. Amazon EC2",
+      "B. Amazon RDS",
+      "C. AWS Lambda",
+      "D. Amazon S3"
+    ],
+    "fullText": "Correct! AWS Lambda is an AWS-managed compute service."
+  },
+  {
+    "question": "A company wants to reduce the physical compute footprint that developers use to run code. Which service would meet that need by enabling serverless architectures?",
+    "choices": [
+      "A. Amazon EC2",
+      "B. AWS Lambda",
+      "C. Amazon RDS",
+      "D. Amazon S3"
+    ],
+    "fullText": "Correct! AWS Lambda enables serverless architectures and allows developers to run code without provisioning or managing servers."
+  },
+  {
+    "question": "Which of the following is the customers responsibility under the AWS shared responsibility model?",
+    "choices": [
+      "A. Managing the physical security of data centers",
+      "B. Maintaining the network infrastructure",
+      "C. Patching Amazon EC2 instances",
+      "D. Ensuring the availability of AWS services"
+    ],
+    "fullText": "Correct! Patching Amazon EC2 instances is the customer's responsibility under the AWS shared responsibility model."
+  },
+  {
+    "question": "According to the AWS shared responsibility model, who is responsible for configuration management?",
+    "choices": [
+      "A. AWS",
+      "B. Third-party vendors",
+      "C. Both AWS and the customer",
+      "D. The customer"
+    ],
+    "fullText": "Correct! Configuration management is a shared responsibility between AWS and the customer according to the AWS shared responsibility model."
+  },
+  {
+    "question": "Which security service automatically recognizes and classifies sensitive data or intellectual property on AWS?",
+    "choices": [
+      "A. AWS Shield",
+      "B. Amazon Macie",
+      "C. AWS WAF",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! Amazon Macie is the security service that automatically recognizes and classifies sensitive data or intellectual property on AWS."
+  },
+  {
+    "question": "Which of the following BEST describe the AWS pricing model? (Select TWO)",
+    "choices": [
+      "A. Fixed monthly pricing",
+      "B. Pay-as-you-go",
+      "C. Annual subscription",
+      "D. Variable costs",
+      "E. Free for all services"
+    ],
+    "fullText": "Correct! The AWS pricing model is pay-as-you-go and has variable costs."
+  },
+  {
+    "question": "Under the shared responsibility model, which of the following tasks are the responsibility of the AWS customer? (Select TWO)",
+    "choices": [
+      "A. Ensuring that application data is encrypted at rest",
+      "B. Managing the physical security of data centers",
+      "C. Ensuring that users have received security training in the use of AWS services",
+      "D. Maintaining the underlying infrastructure",
+      "E. Managing the network infrastructure"
+    ],
+    "fullText": "Correct! Ensuring that application data is encrypted at rest and ensuring that users have received security training in the use of AWS services are the responsibilities of the AWS customer."
+  },
+  {
+    "question": "A customer is using multiple AWS accounts with separate billing. How can the customer take advantage of volume discounts with minimal impact to the AWS resources?",
+    "choices": [
+      "A. By using AWS Trusted Advisor",
+      "B. By using AWS CloudFormation",
+      "C. By using consolidated billing feature from AWS Organizations",
+      "D. By using AWS Cost Explorer"
+    ],
+    "fullText": "Correct! By using the consolidated billing feature from AWS Organizations, a customer can take advantage of volume discounts with minimal impact to the AWS resources."
+  },
+  {
+    "question": "Which AWS services should be used for read/write of constantly changing data? (Select TWO)",
+    "choices": [
+      "A. Amazon Glacier",
+      "B. Amazon RDS",
+      "C. Amazon Redshift",
+      "D. Amazon S3",
+      "E. AWS Snowball"
+    ],
+    "fullText": "Correct! Amazon RDS and Amazon S3 are the AWS services that should be used for read/write of constantly changing data."
+  },
+  {
+    "question": "Which AWS service allows users to identify the changes made to a resource over time?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Config",
+      "C. AWS Trusted Advisor",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! AWS Config allows users to identify the changes made to a resource over time."
+  },
+  {
+    "question": "According to best practices, how should an application be designed to run in the AWS Cloud?",
+    "choices": [
+      "A. Use tightly coupled components",
+      "B. Use loosely coupled components",
+      "C. Use a single Availability Zone",
+      "D. Use on-premises resources"
+    ],
+    "fullText": "Correct! An application should be designed to use loosely coupled components in order to run in the AWS Cloud."
+  },
+  {
+    "question": "Which benefits are included with the AWS Business Support plan? (Select TWO)",
+    "choices": [
+      "A. 24/7 assistance by way of live chat or a telephone call",
+      "B. Access to a Technical Account Manager",
+      "C. An unlimited number of cases and contacts",
+      "D. Access to AWS Forums",
+      "E. Free access to AWS training"
+    ],
+    "fullText": "Correct! The AWS Business Support plan includes 24/7 assistance by way of live chat or a telephone call and an unlimited number of cases and contacts."
+  },
+  {
+    "question": "Which of the following is an AWS managed Domain Name System (DNS) web service?",
+    "choices": [
+      "A. Amazon Route 53",
+      "B. Amazon CloudFront",
+      "C. AWS Lambda",
+      "D. Amazon RDS"
+    ],
+    "fullText": "Correct! Amazon Route 53 is an AWS managed Domain Name System (DNS) web service."
+  },
+   {
+    "question": "A user must meet compliance and software licensing requirements that state a workload must be hosted on a physical server. Which Amazon EC2 instance pricing option will meet these requirements?",
+    "choices": [
+      "A. Spot Instances",
+      "B. On-Demand Instances",
+      "C. Reserved Instances",
+      "D. Dedicated Hosts"
+    ],
+    "fullText": "Correct! Dedicated Hosts is the Amazon EC2 instance pricing option that allows workloads to be hosted on physical servers."
+  },
+  {
+    "question": "Which of the Reserved Instance (RI) pricing models can change the attributes of the RI as long as the exchange results in the creation of RIs of equal or greater value?",
+    "choices": [
+      "A. Standard RIs",
+      "B. Scheduled RIs",
+      "C. Convertible RIs",
+      "D. On-Demand RIs"
+    ],
+    "fullText": "Correct! Convertible RIs allow the attributes of the RI to be changed as long as the exchange results in the creation of RIs of equal or greater value."
+  },
+  {
+    "question": "Which service is best for storing common database query results, which helps to alleviate database access load?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon S3",
+      "C. Amazon ElastiCache",
+      "D. AWS Lambda"
+    ],
+    "fullText": "Correct! Amazon ElastiCache is the service that is best for storing common database query results and helps to alleviate database access load."
+  },
+   {
+    "question": "When should a company consider using Amazon EC2 Spot Instances? (Select TWO)",
+    "choices": [
+      "A. For non-production applications",
+      "B. For applications with a fixed workload",
+      "C. For fault-tolerant flexible applications",
+      "D. For applications requiring dedicated hardware",
+      "E. For applications with strict compliance requirements"
+    ],
+    "fullText": "Correct! Companies should consider using Amazon EC2 Spot Instances for non-production applications and fault-tolerant flexible applications."
+  },
+  {
+    "question": "Which AWS tools assist with estimating costs? (Select three)",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. Cost allocation tags",
+      "C. AWS Simple Monthly Calculator",
+      "D. AWS Total Cost of Ownership (TCO) Calculator",
+      "E. AWS CloudTrail"
+    ],
+    "fullText": "Correct! Cost allocation tags, AWS Simple Monthly Calculator, and AWS Total Cost of Ownership (TCO) Calculator are the AWS tools that assist with estimating costs."
+  },
+  {
+    "question": "A company wants to focus on business activities instead of managing compute and capacity. Which AWS service can be used to automatically add or remove Amazon EC2 instances based on demand?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. Amazon EC2 Auto Scaling",
+      "C. AWS Elastic Beanstalk",
+      "D. AWS OpsWorks"
+    ],
+    "fullText": "Correct! Amazon EC2 Auto Scaling can be used to automatically add or remove Amazon EC2 instances based on demand."
+  },
+  {
+    "question": "Which is the minimum AWS Support plan that includes Infrastructure Event Management without additional costs?",
+    "choices": [
+      "A. Basic",
+      "B. Developer",
+      "C. Business",
+      "D. Enterprise"
+    ],
+    "fullText": "Correct! The Enterprise support plan is the minimum AWS Support plan that includes Infrastructure Event Management without additional costs."
+  },
+  {
+    "question": "Access keys in AWS Identity and Access Management (IAM) are used to:",
+    "choices": [
+      "A. Securely store credentials",
+      "B. Make programmatic calls to AWS from AWS APIs",
+      "C. Encrypt data at rest",
+      "D. Manage user permissions"
+    ],
+    "fullText": "Correct! Access keys in AWS Identity and Access Management (IAM) are used to make programmatic calls to AWS from AWS APIs."
+  },
+  {
+    "question": "Which AWS service can be used to query stored datasets directly from Amazon S3 using standard SQL?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon Redshift",
+      "C. Amazon DynamoDB",
+      "D. Amazon Athena"
+    ],
+    "fullText": "Correct! Amazon Athena can be used to query stored datasets directly from Amazon S3 using standard SQL."
+  },
+  {
+    "question": "How does AWS shorten the time to provision IT resources?",
+    "choices": [
+      "A. By allowing users to programmatically provision existing resources",
+      "B. By offering fixed pricing for all services",
+      "C. By providing free data transfer between regions",
+      "D. By managing the physical security of data centers"
+    ],
+    "fullText": "Correct! By allowing users to programmatically provision existing resources, AWS shortens the time to provision IT resources."
+  },
+  {
+    "question": "Which AWS services can be used to gather information about AWS account activity? (Select TWO)",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Trusted Advisor",
+      "C. AWS CloudTrail",
+      "D. AWS Config",
+      "E. Amazon CloudWatch"
+    ],
+    "fullText": "Correct! By allowing users to programmatically provision existing resources, AWS shortens the time to provision IT resources."
+  },
+  {
+    "question": "Which AWS services can be used to gather information about AWS account activity? (Select TWO)",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Trusted Advisor",
+      "C. AWS CloudTrail",
+      "D. AWS Config",
+      "E. Amazon CloudWatch"
+    ],
+    "fullText": "Correct! AWS CloudTrail and Amazon CloudWatch can be used to gather information about AWS account activity."
+  },
+  {
+    "question": "Which of the following are characteristics of Amazon S3? (Select TWO)",
+    "choices": [
+      "A. Block storage",
+      "B. Object store",
+      "C. Durable storage system",
+      "D. Managed database service",
+      "E. Serverless compute service"
+    ],
+    "fullText": "Correct! Amazon S3 is an object store and a durable storage system."
+  },
+  {
+    "question": "What is an AWS Identity and Access Management (IAM) role?",
+    "choices": [
+      "A. A user account with elevated permissions",
+      "B. A group of users with the same permissions",
+      "C. An entity that defines a set of permissions for use with an AWS resource",
+      "D. A policy that grants access to AWS services"
+    ],
+    "fullText": "Correct! An IAM role is an entity that defines a set of permissions for use with an AWS resource."
+  },
+  {
+    "question": "What are the advantages of Reserved Instances? (Choose two.)",
+    "choices": [
+      "A. They provide a discount over on-demand pricing.",
+      "B. They offer unlimited scalability.",
+      "C. They allow for automatic scaling based on demand.",
+      "D. They require no upfront payment.",
+      "E. Customers can reserve capacity in an Availability Zone."
+    ],
+    "fullText": "The correct answers are A. They provide a discount over on-demand pricing and E. Customers can reserve capacity in an Availability Zone."
+  },
+  {
+    "question": "How do Amazon EC2 Auto Scaling groups help achieve high availability for a web application?",
+    "choices": [
+      "A. They provide a fixed number of instances at all times.",
+      "B. They automatically add or replace instances across multiple Availability Zones when the application needs it.",
+      "C. They offer on-demand instances at a lower cost.",
+      "D. They provide a managed environment for deploying applications."
+    ],
+    "fullText": "Correct! Amazon EC2 Auto Scaling groups help achieve high availability for a web application by automatically adding or replacing instances across multiple Availability Zones when the application needs it."
+  },
+  {
+    "question": "Which Amazon EC2 pricing model offers the MOST significant discount when compared to On-Demand Instances?",
+    "choices": [
+      "A. Spot Instances",
+      "B. Partial Upfront Reserved Instances for a 1-year term",
+      "C. All Upfront Reserved Instances for a 3-year term",
+      "D. No Upfront Reserved Instances for a 3-year term"
+    ],
+    "fullText": "Correct! All Upfront Reserved Instances for a 3-year term offer the most significant discount when compared to On-Demand Instances."
+  },
+   {
+    "question": "What AWS service offers on-demand access to AWS security and compliance reports?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Artifact",
+      "C. AWS Config",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! AWS Artifact offers on-demand access to AWS security and compliance reports."
+  },
+  {
+    "question": "What benefits does using third-party software from AWS Marketplace provide over installing third-party software on Amazon EC2? (Choose two.)",
+    "choices": [
+      "A. Users pay for software by the hour or month depending on licensing.",
+      "B. AWS Marketplace enables the user to launch applications with 1-Click.",
+      "C. It provides automatic detection of objects appearing in pictures.",
+      "D. It offers a managed environment for deploying applications.",
+      "E. It allows for the creation of virtual private networks."
+    ],
+    "fullText": "Correct! Users pay for software by the hour or month depending on licensing, and AWS Marketplace enables the user to launch applications with 1-Click."
+  },
+   {
+    "question": "Which AWS service supports matching the supply of resources with changing workload demands?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Trusted Advisor",
+      "C. Elasticity",
+      "D. AWS Config"
+    ],
+    "fullText": "Correct! Elasticity supports matching the supply of resources with changing workload demands."
+  },
+  {
+    "question": "A user is running an application on AWS and notices that one or more AWS-owned IP addresses is involved in a distributed denial-of-service (DDoS) attack. Who should the user contact FIRST about this situation?",
+    "choices": [
+      "A. AWS Support",
+      "B. AWS Technical Account Manager",
+      "C. AWS Solutions Architect",
+      "D. AWS Abuse team"
+    ],
+    "fullText": "Correct! The AWS Abuse team should be contacted first if one or more AWS-owned IP addresses is involved in a distributed denial-of-service (DDoS) attack."
+  },
+  {
+    "question": "Which AWS service enables users to consolidate billing across multiple accounts?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Organizations",
+      "C. AWS CloudFormation",
+      "D. AWS Cost Explorer"
+    ],
+    "fullText": "Correct! AWS Organizations enables users to consolidate billing across multiple accounts."
+  },
+  {
+    "question": "What is an example of high availability in the AWS Cloud?",
+    "choices": [
+      "A. Ensuring data is encrypted",
+      "B. Ensuring an application remains accessible, even if a resource fails",
+      "C. Using IAM roles for access control",
+      "D. Implementing security groups"
+    ],
+    "fullText": "Correct! Ensuring an application remains accessible, even if a resource fails, is an example of high availability in the AWS Cloud."
+  },
+  {
+    "question": "Which AWS security service protects applications from distributed denial of service attacks with always-on detection and automatic inline mitigations?",
+    "choices": [
+      "A. AWS WAF",
+      "B. AWS Shield",
+      "C. AWS Inspector",
+      "D. AWS GuardDuty"
+    ],
+    "fullText": "Correct! AWS Shield protects applications from distributed denial of service attacks with always-on detection and automatic inline mitigations."
+  },
+  {
+    "question": "A company wants to monitor the CPU usage of its Amazon EC2 resources. Which AWS service should the company use?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. Amazon CloudWatch",
+      "C. AWS Config",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! Amazon CloudWatch should be used to monitor the CPU usage of Amazon EC2 resources."
+  },
+  {
+    "question": "Which of the following is an advantage of using AWS?",
+    "choices": [
+      "A. There is no guessing on capacity needs.",
+      "B. It requires long-term contracts.",
+      "C. It offers fixed pricing for all services.",
+      "D. It provides free data transfer between regions."
+    ],
+    "fullText": "Correct! There is no guessing on capacity needs when using AWS."
+  },
+  {
+    "question": "What AWS service handles the deployment details of capacity provisioning, load balancing, Auto Scaling, and application health monitoring?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Elastic Beanstalk",
+      "C. AWS OpsWorks",
+      "D. AWS CodeDeploy"
+    ],
+    "fullText": "Correct! AWS Elastic Beanstalk handles the deployment details of capacity provisioning, load balancing, Auto Scaling, and application health monitoring."
+  },
+  {
+    "question": "Which AWS service provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Elastic Beanstalk",
+      "C. Amazon VPC",
+      "D. AWS Lambda"
+    ],
+    "fullText": "Correct! Amazon VPC provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2."
+  },
+  {
+    "question": "What is the purpose of AWS CloudFormation?",
+    "choices": [
+      "A. To provide managed database services",
+      "B. To enable serverless computing",
+      "C. To model and provision AWS resources",
+      "D. To monitor and log AWS account activity"
+    ],
+    "fullText": "Correct! AWS CloudFormation is used to model and provision AWS resources."
+  },
+  {
+    "question": "Which AWS service can be used to query stored datasets directly from Amazon S3 using standard SQL?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon Redshift",
+      "C. Amazon DynamoDB",
+      "D. Amazon Athena"
+    ],
+    "fullText": "Correct! Amazon Athena can be used to query stored datasets directly from Amazon S3 using standard SQL."
+  },
+  {
+    "question": "What is the AWS Shared Responsibility Model?",
+    "choices": [
+      "A. A model where AWS is responsible for all security aspects.",
+      "B. A model where the customer is responsible for all security aspects.",
+      "C. A model where AWS and the customer share security responsibilities.",
+      "D. A model where third-party vendors handle security responsibilities."
+    ],
+    "fullText": "Correct! The AWS Shared Responsibility Model is a model where AWS and the customer share security responsibilities."
+  },
+  {
+    "question": "What is the purpose of AWS CloudFormation?",
+    "choices": [
+      "A. To provide managed database services",
+      "B. To enable serverless computing",
+      "C. To model and provision AWS resources",
+      "D. To monitor and log AWS account activity"
+    ],
+    "fullText": "Correct! AWS CloudFormation is used to model and provision AWS resources."
+  },
+  {
+    "question": "Which AWS service provides a self-service portal for on-demand access to AWS compliance reports?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Artifact",
+      "C. AWS Inspector",
+      "D. AWS Config"
+    ],
+    "fullText": "Correct! AWS Artifact provides a self-service portal for on-demand access to AWS compliance reports."
+  },
+  {
+    "question": "How can an AWS user with an AWS Basic Support plan obtain technical assistance from AWS?",
+    "choices": [
+      "A. AWS Discussion Forums",
+      "B. AWS Technical Account Manager",
+      "C. AWS Support Center",
+      "D. AWS Trusted Advisor"
+    ],
+    "fullText": "Correct! AWS Discussion Forums is the way an AWS user with an AWS Basic Support plan can obtain technical assistance from AWS."
+  },
+  {
+    "question": "Which of the following is an AWS Well-Architected Framework design principle related to reliability?",
+    "choices": [
+      "A. Ability to recover from failure",
+      "B. Use of on-demand resources",
+      "C. Cost optimization",
+      "D. Elasticity"
+    ],
+    "fullText": "Correct! The ability to recover from failure is an AWS Well-Architected Framework design principle related to reliability."
+  },
+  {
+    "question": "Which type of AWS storage is ephemeral and is deleted when an instance is stopped or terminated?",
+    "choices": [
+      "A. Amazon S3",
+      "B. Amazon EBS",
+      "C. Amazon EC2 instance store",
+      "D. Amazon Glacier"
+    ],
+    "fullText": "Correct! Amazon EC2 instance store is ephemeral and is deleted when an instance is stopped or terminated."
+  },
+  {
+    "question": "Which Amazon EC2 pricing model is the MOST cost-efficient for an uninterruptible workload that runs once a year for 24 hours?",
+    "choices": [
+      "A. On-Demand Instances",
+      "B. Spot Instances",
+      "C. Reserved Instances",
+      "D. Dedicated Hosts"
+    ],
+    "fullText": "Correct! Reserved Instances are the most cost-efficient for an uninterruptible workload that runs once a year for 24 hours."
+  },
+  {
+    "question": "Which Amazon Virtual Private Cloud (Amazon VPC. feature enables users to connect two VPCs together?",
+    "choices": [
+      "A. VPC Peering",
+      "B. VPC Endpoint",
+      "C. VPC Flow Logs",
+      "D. VPC Subnets"
+    ],
+    "fullText": "Correct! VPC Peering enables users to connect two VPCs together."
+  },
+  {
+    "question": "Which AWS service can be used to set up an alert notification when the account is approaching a particular dollar amount?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Budgets",
+      "C. AWS CloudFormation",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! AWS Budgets can be used to set up an alert notification when the account is approaching a particular dollar amount."
+  },
+  {
+    "question": "What is the purpose of AWS CloudFormation?",
+    "choices": [
+      "A. To provide managed database services",
+      "B. To enable serverless computing",
+      "C. To model and provision AWS resources",
+      "D. To monitor and log AWS account activity"
+    ],
+    "fullText": "Correct! AWS CloudFormation is used to model and provision AWS resources."
+  },
+  {
+    "question": "Which AWS service provides a self-service portal for on-demand access to AWS compliance reports?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Artifact",
+      "C. AWS Inspector",
+      "D. AWS Config"
+    ],
+    "fullText": "Correct! AWS Artifact provides a self-service portal for on-demand access to AWS compliance reports."
+  },
+  {
+    "question": "What are the three components of AWS global infrastructure?",
+    "choices": [
+      "A. Regions, Availability Zones, and Edge Locations",
+      "B. Regions, Data Centers, and Edge Locations",
+      "C. Availability Zones, Data Centers, and Edge Locations",
+      "D. Regions, Data Centers, and Availability Zones"
+    ],
+    "fullText": "Correct! The three components of AWS global infrastructure are Regions, Availability Zones, and Edge Locations."
+  },
+  {
+    "question": "How can you select the right region for your applications?",
+    "choices": [
+      "A. By choosing the region with the most services available",
+      "B. By considering factors such as latency, compliance requirements, and data residency",
+      "C. By selecting the region closest to your company's headquarters",
+      "D. By choosing the region with the lowest cost"
+    ],
+    "fullText": "Correct! By considering factors such as latency, compliance requirements, and data residency, you can select the right region for your applications."
+  },
+  {
+    "question": "Which AWS service provides a self-service portal for on-demand access to AWS compliance reports?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Artifact",
+      "C. AWS Inspector",
+      "D. AWS Config"
+    ],
+    "fullText": "Correct! AWS Artifact provides a self-service portal for on-demand access to AWS compliance reports."
+  },
+  {
+    "question": "A company requires a dedicated network connection between its on-premises servers and the AWS Cloud. Which AWS service should be used?",
+    "choices": [
+      "A. AWS VPN",
+      "B. AWS Direct Connect",
+      "C. AWS Transit Gateway",
+      "D. AWS Global Accelerator"
+    ],
+    "fullText": "Correct! AWS Direct Connect should be used for a dedicated network connection between on-premises servers and the AWS Cloud."
+  },
+  {
+    "question": "Which AWS service can be used to query stored datasets directly from Amazon S3 using standard SQL?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon Redshift",
+      "C. Amazon DynamoDB",
+      "D. Amazon Athena"
+    ],
+    "fullText": "Correct! Amazon Athena can be used to query stored datasets directly from Amazon S3 using standard SQL."
+  },
+  {
+    "question": "What is the AWS Shared Responsibility Model?",
+    "choices": [
+      "A. A model where AWS is responsible for all security aspects.",
+      "B. A model where the customer is responsible for all security aspects.",
+      "C. A model where AWS and the customer share security responsibilities.",
+      "D. A model where third-party vendors handle security responsibilities."
+    ],
+    "fullText": "Correct! The AWS Shared Responsibility Model is a model where AWS and the customer share security responsibilities."
+  },
+  {
+    "question": "What technology enables compute capacity to adjust as loads change?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Trusted Advisor",
+      "C. Amazon RDS",
+      "D. Auto Scaling"
+    ],
+    "fullText": "Correct! Auto Scaling technology enables compute capacity to adjust as loads change."
+  },
+  {
+    "question": "Which AWS service is a managed NoSQL database?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon DynamoDB",
+      "C. Amazon Redshift",
+      "D. Amazon Aurora"
+    ],
+    "fullText": "Correct! Amazon DynamoDB is a managed NoSQL database service."
+  },
+  {
+    "question": "Which of the following is a correct relationship between regions, Availability Zones, and edge locations?",
+    "choices": [
+      "A. Availability Zones contain regions and edge locations.",
+      "B. Regions contain Availability Zones and edge locations.",
+      "C. Edge locations contain regions and Availability Zones.",
+      "D. Regions and Availability Zones are independent of edge locations."
+    ],
+    "fullText": "Correct! Regions contain Availability Zones and edge locations."
+  },
+  {
+    "question": "What approach to transcoding a large number of individual video files adheres to AWS architecture principles?",
+    "choices": [
+      "A. Using a single large instance",
+      "B. Using many instances in parallel",
+      "C. Using on-premises servers",
+      "D. Using a single Availability Zone"
+    ],
+    "fullText": "Correct! Using many instances in parallel adheres to AWS architecture principles for transcoding a large number of individual video files."
+  },
+  {
+    "question": "Which AWS services can host a Microsoft SQL Server database? (Select TWO)",
+    "choices": [
+      "A. Amazon EC2",
+      "B. Amazon RDS",
+      "C. Amazon S3",
+      "D. AWS Lambda",
+      "E. Amazon DynamoDB"
+    ],
+    "fullText": "Correct! Amazon EC2 and Amazon RDS can host a Microsoft SQL Server database."
+  },
+  {
+    "question": "Which AWS IAM feature allows developers to access AWS services through the AWS CLI?",
+    "choices": [
+      "A. IAM roles",
+      "B. Access keys",
+      "C. IAM policies",
+      "D. IAM users"
+    ],
+    "fullText": "Correct! Access keys in AWS Identity and Access Management (IAM) allow developers to access AWS services through the AWS CLI."
+  },
+ {
+    "question": "The user is fully responsible for which action when running workloads on AWS?",
+    "choices": [
+      "A. Managing the physical security of data centers",
+      "B. Maintaining the network infrastructure",
+      "C. Patching the underlying hypervisor",
+      "D. Implementing controls to route application traffic"
+    ],
+    "fullText": "Correct! Implementing controls to route application traffic is the user's responsibility when running workloads on AWS."
+  },
+  {
+    "question": "What will help a company perform a cost-benefit analysis of migrating to the AWS Cloud?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Total Cost of Ownership (TCO) Calculator",
+      "C. AWS CloudFormation",
+      "D. AWS Cost Explorer"
+    ],
+    "fullText": "Correct! The AWS Total Cost of Ownership (TCO) Calculator helps a company perform a cost-benefit analysis of migrating to the AWS Cloud."
+  },
+  {
+    "question": "Which of the following provides the ability to share the cost benefits of Reserved Instances across AWS accounts?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. Linked accounts and consolidated billing",
+      "C. AWS CloudFormation",
+      "D. AWS Cost Explorer"
+    ],
+    "fullText": "Correct! Linked accounts and consolidated billing provide the ability to share the cost benefits of Reserved Instances across AWS accounts."
+  },
+  {
+    "question": "A company has multiple AWS accounts and wants to simplify and consolidate its billing process. Which AWS service will achieve this?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Organizations",
+      "C. AWS CloudFormation",
+      "D. AWS Cost Explorer"
+    ],
+    "fullText": "Correct! AWS Organizations will achieve the goal of simplifying and consolidating the billing process for multiple AWS accounts."
+  },
+  {
+    "question": "A company is designing an application hosted in a single AWS Region serving end-users spread across the world. The company wants to provide the end-users low latency access to the application data. Which of the following services will help fulfill this requirement?",
+    "choices": [
+      "A. Amazon CloudFront",
+      "B. Amazon RDS",
+      "C. AWS Lambda",
+      "D. Amazon S3"
+    ],
+    "fullText": "Correct! Amazon CloudFront will help provide low latency access to application data for end-users spread across the world."
+  },
+  {
+    "question": "Which of the following deployment models enables customers to fully trade their capital IT expenses for operational expenses?",
+    "choices": [
+      "A. On-premises",
+      "B. Hybrid",
+      "C. Cloud",
+      "D. Colocation"
+    ],
+    "fullText": "Correct! The cloud deployment model enables customers to fully trade their capital IT expenses for operational expenses."
+  },
+  {
+    "question": "How is asset management on AWS easier than asset management in a physical data center?",
+    "choices": [
+      "A. AWS performs infrastructure discovery scans on the customer's behalf.",
+      "B. AWS provides a fixed pricing model for all services.",
+      "C. AWS offers unlimited storage capacity.",
+      "D. AWS manages all customer applications."
+    ],
+    "fullText": "The correct answer is B. AWS performs infrastructure discovery scans on the customer's behalf."
+  },
+  {
+    "question": "What feature of Amazon RDS helps to create globally redundant databases?",
+    "choices": [
+      "A. Multi-AZ deployments",
+      "B. Read replicas",
+      "C. Cross-Region read replicas",
+      "D. Automated backups"
+    ],
+    "fullText": "Correct! Cross-Region read replicas help create globally redundant databases in Amazon RDS."
+  },
+  {
+    "question": "Using AWS Identity and Access Management (IAM) to grant access only to the resources needed to perform a task is a concept known as:",
+    "choices": [
+      "A. Role-based access control",
+      "B. Multi-factor authentication",
+      "C. Least privilege access",
+      "D. Single sign-on"
+    ],
+    "fullText": "Correct! Using AWS Identity and Access Management (IAM) to grant access only to the resources needed to perform a task is a concept known as least privilege access."
+  },
+  {
+    "question": "Which methods can be used to identify AWS costs by departments? (Choose two.)",
+    "choices": [
+      "A. Create separate accounts for each department",
+      "B. Use consolidated billing",
+      "C. Use tags to associate each instance with a particular department",
+      "D. Use AWS Cost Explorer",
+      "E. Use AWS Trusted Advisor"
+    ],
+    "fullText": "Correct! Creating separate accounts for each department and using tags to associate each instance with a particular department are methods to identify AWS costs by departments."
+  },
+  {
+    "question": "Under the AWS shared responsibility model, customer responsibilities include which one of the following?",
+    "choices": [
+      "A. Managing the physical security of data centers",
+      "B. Maintaining the network infrastructure",
+      "C. Configuring the operating system, network, and firewall",
+      "D. Ensuring the availability of AWS services"
+    ],
+    "fullText": "Correct! Configuring the operating system, network, and firewall is the customer's responsibility under the AWS shared responsibility model."
+  },
+  {
+    "question": "Which managed AWS service provides real-time guidance on AWS security best practices?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Trusted Advisor",
+      "C. AWS Inspector",
+      "D. AWS Config"
+    ],
+    "fullText": "Correct! AWS Trusted Advisor provides real-time guidance on AWS security best practices."
+  },
+  {
+    "question": "Which feature adds elasticity to Amazon EC2 instances to handle the changing demand for workloads?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. AWS Lambda",
+      "C. Amazon S3",
+      "D. Amazon EC2 Auto Scaling"
+    ],
+    "fullText": "Correct! Amazon EC2 Auto Scaling adds elasticity to Amazon EC2 instances to handle the changing demand for workloads."
+  },
+  {
+    "question": "Which AWS service can a customer use to set up an alert notification when the account is approaching a particular dollar amount?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Budgets",
+      "C. AWS CloudFormation",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! AWS Budgets can be used to set up an alert notification when the account is approaching a particular dollar amount."
+  },
+  {
+    "question": "What can users access from AWS Artifact?",
+    "choices": [
+      "A. AWS security and compliance documents",
+      "B. AWS pricing information",
+      "C. AWS service status updates",
+      "D. AWS training materials"
+    ],
+    "fullText": "Correct! AWS security and compliance documents can be accessed from AWS Artifact."
+  },
+  {
+    "question": "Which is the MINIMUM AWS Support plan that provides designated Technical Account Managers?",
+    "choices": [
+      "A. Basic",
+      "B. Developer",
+      "C. Business",
+      "D. Enterprise"
+    ],
+    "fullText": "Correct! The Enterprise support plan is the minimum AWS Support plan that provides designated Technical Account Managers."
+  },
+  {
+    "question": "Which AWS service allows users to identify the changes made to a resource over time?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Config",
+      "C. AWS Trusted Advisor",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! AWS Config allows users to identify the changes made to a resource over time."
+  },
+  {
+    "question": "According to best practices, how should an application be designed to run in the AWS Cloud?",
+    "choices": [
+      "A. Use tightly coupled components",
+      "B. Use loosely coupled components",
+      "C. Use a single Availability Zone",
+      "D. Use on-premises resources"
+    ],
+    "fullText": "Correct! An application should be designed to use loosely coupled components in order to run in the AWS Cloud."
+  },
+  {
+    "question": "Which benefits are included with the AWS Business Support plan? (Select TWO)",
+    "choices": [
+      "A. 24/7 assistance by way of live chat or a telephone call",
+      "B. Access to a Technical Account Manager",
+      "C. An unlimited number of cases and contacts",
+      "D. Access to AWS Forums",
+      "E. Free access to AWS training"
+    ],
+    "fullText": "Correct! The AWS Business Support plan includes 24/7 assistance by way of live chat or a telephone call and an unlimited number of cases and contacts."
+  },
+  {
+    "question": "What time-savings advantage is offered with the use of Amazon Rekognition?",
+    "choices": [
+      "A. It automatically scales resources based on demand.",
+      "B. It provides automatic detection of objects appearing in pictures.",
+      "C. It offers a managed environment for deploying applications.",
+      "D. It allows for the creation of virtual private networks."
+    ],
+    "fullText": "Correct! Amazon Rekognition provides automatic detection of objects appearing in pictures."
+  },
+  {
+    "question": "When comparing AWS with on-premises Total Cost of Ownership (TCO), what costs are included?",
+    "choices": [
+      "A. Data center security",
+      "B. Application development",
+      "C. Marketing expenses",
+      "D. Office supplies"
+    ],
+    "fullText": "The correct answer is A. Data center security."
+  },
+  {
+    "question": "Which service should be used to estimate the costs of running a new project on AWS?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS CloudFormation",
+      "C. AWS Cost Explorer API",
+      "D. AWS CloudTrail"
+    ],
+    "fullText": "Correct! AWS Cost Explorer API is the service used to estimate the costs of running a new project on AWS."
+  },
+  {
+    "question": "Which AWS tool will identify security groups that grant unrestricted Internet access to a limited list of ports?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Trusted Advisor",
+      "C. AWS Inspector",
+      "D. AWS Config"
+    ],
+    "fullText": "The correct answer is B. AWS Trusted Advisor."
+  },
+  {
+    "question": "Which AWS service can be used to generate alerts based on an estimated monthly bill?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. Amazon CloudWatch",
+      "C. AWS Config",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! Amazon CloudWatch can be used to generate alerts based on an estimated monthly bill."
+  },
+  {
+    "question": "Which Amazon EC2 pricing model offers the MOST significant discount when compared to On-Demand Instances?",
+    "choices": [
+      "A. Spot Instances",
+      "B. Partial Upfront Reserved Instances for a 1-year term",
+      "C. All Upfront Reserved Instances for a 3-year term",
+      "D. No Upfront Reserved Instances for a 3-year term"
+    ],
+    "fullText": "Correct! All Upfront Reserved Instances for a 3-year term offer the most significant discount when compared to On-Demand Instances."
+  },
+  {
+    "question": "Which of the following is the responsibility of AWS?",
+    "choices": [
+      "A. Managing user access and permissions",
+      "B. Physically destroying storage media at end of life",
+      "C. Configuring security groups",
+      "D. Patching the guest operating system"
+    ],
+    "fullText": "Correct! AWS is responsible for physically destroying storage media at end of life."
+  },
+  {
+    "question": "Which AWS service would a customer use with a static website to achieve lower latency and high transfer speeds?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon DynamoDB",
+      "C. AWS Lambda",
+      "D. Amazon CloudFront"
+    ],
+    "fullText": "Correct! Amazon CloudFront is the AWS service that helps achieve lower latency and high transfer speeds for a static website."
+  },
+  {
+    "question": "What AWS service handles the deployment details of capacity provisioning, load balancing, Auto Scaling, and application health monitoring?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Elastic Beanstalk",
+      "C. AWS OpsWorks",
+      "D. AWS CodeDeploy"
+    ],
+    "fullText": "Correct! AWS Elastic Beanstalk handles the deployment details of capacity provisioning, load balancing, Auto Scaling, and application health monitoring."
+  },
+  {
+    "question": "Which AWS service provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Elastic Beanstalk",
+      "C. Amazon VPC",
+      "D. AWS Lambda"
+    ],
+    "fullText": "Correct! Amazon VPC provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2."
+  },
+  {
+    "question": "When a company provisions web servers in multiple AWS Regions, what is being increased?",
+    "choices": [
+      "A. Security",
+      "B. Availability",
+      "C. Cost",
+      "D. Latency"
+    ],
+    "fullText": "Correct! Provisioning web servers in multiple AWS Regions increases availability."
+  },
+  {
+    "question": "The pay-as-you-go pricing model for AWS services:",
+    "choices": [
+      "A. Increases capital expenditures.",
+      "B. Reduces capital expenditures.",
+      "C. Requires long-term contracts.",
+      "D. Charges a flat monthly fee."
+    ],
+    "fullText": "Correct! The pay-as-you-go pricing model for AWS services reduces capital expenditures."
+  },
+  {
+    "question": "Which AWS service offers on-demand access to AWS security and compliance reports?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Artifact",
+      "C. AWS Config",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! AWS Artifact offers on-demand access to AWS security and compliance reports."
+  },
+  {
+    "question": "What are the benefits of using the AWS Cloud for companies with customers in many countries around the world? (Choose two.)",
+    "choices": [
+      "A. Companies can deploy applications in multiple AWS Regions to reduce latency.",
+      "B. AWS offers a fixed pricing model for all regions.",
+      "C. Amazon CloudFront has multiple edge locations around the world to reduce latency.",
+      "D. AWS provides free data transfer between regions."
+    ],
+    "fullText": "Correct! Companies can deploy applications in multiple AWS Regions to reduce latency, and Amazon CloudFront has multiple edge locations around the world to reduce latency."
+  },
+  {
+    "question": "Which AWS service provides VPN connectivity to a VPC using IPSec VPN tunnels?",
+    "choices": [
+      "A. AWS Direct Connect",
+      "B. AWS Transit Gateway",
+      "C. AWS VPN",
+      "D. AWS Global Accelerator"
+    ],
+    "fullText": "Correct! AWS VPN provides VPN connectivity to a VPC using IPSec VPN tunnels."
+  },
+  {
+    "question": "How can one AWS account use Reserved Instances from another AWS account?",
+    "choices": [
+      "A. By using AWS Direct Connect",
+      "B. By using AWS Organizations consolidated billing",
+      "C. By using AWS CloudFormation",
+      "D. By using AWS IAM roles"
+    ],
+    "fullText": "Correct! By using AWS Organizations consolidated billing, one AWS account can use Reserved Instances from another AWS account."
+  },
+  {
+    "question": "A customer runs an On-Demand Amazon Linux EC2 instance for 3 hours, 5 minutes, and 6 seconds. For how much time will the customer be billed?",
+    "choices": [
+      "A. 3 hours",
+      "B. 3 hours, 5 minutes, and 6 seconds",
+      "C. 4 hours",
+      "D. 3 hours and 5 minutes"
+    ],
+    "fullText": "Correct! A customer running an On-Demand Amazon Linux EC2 instance for 3 hours, 5 minutes, and 6 seconds will be billed for 3 hours, 5 minutes, and 6 seconds."
+  },
+  {
+    "question": "Which of the following allows users to provision a dedicated network connection from their internal network to AWS?",
+    "choices": [
+      "A. AWS VPN",
+      "B. AWS Direct Connect",
+      "C. AWS Transit Gateway",
+      "D. AWS Global Accelerator"
+    ],
+    "fullText": "Correct! AWS Direct Connect allows users to provision a dedicated network connection from their internal network to AWS."
+  },
+  {
+    "question": "Which services use AWS edge locations? (Choose two.)",
+    "choices": [
+      "A. Amazon CloudFront",
+      "B. AWS Shield",
+      "C. AWS Lambda",
+      "D. Amazon RDS"
+    ],
+    "fullText": "The correct answers are A. Amazon CloudFront and B. AWS Shield."
+  },
+  {
+    "question": "Which of the following can an AWS customer use to launch a new Amazon Relational Database Service (Amazon RDS) cluster? (Select TWO)",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS CloudFormation",
+      "C. AWS CloudTrail",
+      "D. AWS Config",
+      "E. AWS Management Console"
+    ],
+    "fullText": "Correct! AWS customers can use the AWS CloudFormation service or the AWS Management Console to launch a new Amazon RDS cluster."
+  },
+  {
+    "question": "Which of the following Reserved Instance (RI) pricing models provides the highest average savings compared to On-Demand pricing?",
+    "choices": [
+      "A. One-year, Partial Upfront, Standard RI",
+      "B. Three-year, Partial Upfront, Convertible RI",
+      "C. Three-year, All Upfront, Standard RI",
+      "D. One-year, No Upfront, Standard RI"
+    ],
+    "fullText": "Correct! The three-year, All Upfront, Standard RI pricing model provides the highest average savings compared to On-Demand pricing."
+  },
+  {
+    "question": "Which of the following are features of Amazon CloudWatch Logs? (Select TWO)",
+    "choices": [
+      "A. Automatic scaling of resources",
+      "B. Load balancing",
+      "C. Data encryption at rest",
+      "D. Real-time monitoring",
+      "E. Adjustable log retention"
+    ],
+    "fullText": "Correct! Amazon CloudWatch Logs provide real-time monitoring and adjustable log retention."
+  },
+  {
+    "question": "Which of the following is an AWS-managed compute service?",
+    "choices": [
+      "A. Amazon EC2",
+      "B. Amazon RDS",
+      "C. AWS Lambda",
+      "D. Amazon S3"
+    ],
+    "fullText": "Correct! AWS Lambda is an AWS-managed compute service."
+  },
+  {
+    "question": "A company wants to reduce the physical compute footprint that developers use to run code. Which service would meet that need by enabling serverless architectures?",
+    "choices": [
+      "A. Amazon EC2",
+      "B. AWS Lambda",
+      "C. Amazon RDS",
+      "D. Amazon S3"
+    ],
+    "fullText": "Correct! AWS Lambda enables serverless architectures and allows developers to run code without provisioning or managing servers."
+  },
+  {
+    "question": "Which of the following is the customers responsibility under the AWS shared responsibility model?",
+    "choices": [
+      "A. Managing the physical security of data centers",
+      "B. Maintaining the network infrastructure",
+      "C. Patching Amazon EC2 instances",
+      "D. Ensuring the availability of AWS services"
+    ],
+    "fullText": "Correct! Patching Amazon EC2 instances is the customer's responsibility under the AWS shared responsibility model."
+  },
+  {
+    "question": "According to the AWS shared responsibility model, who is responsible for configuration management?",
+    "choices": [
+      "A. AWS",
+      "B. Third-party vendors",
+      "C. Both AWS and the customer",
+      "D. The customer"
+    ],
+    "fullText": "Correct! Configuration management is a shared responsibility between AWS and the customer according to the AWS shared responsibility model."
+  },
+    {
+    "question": "Which security service automatically recognizes and classifies sensitive data or intellectual property on AWS?",
+    "choices": [
+      "A. AWS Shield",
+      "B. Amazon Macie",
+      "C. AWS WAF",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! Amazon Macie is the security service that automatically recognizes and classifies sensitive data or intellectual property on AWS."
+  },
+  {
+    "question": "Which of the following BEST describe the AWS pricing model? (Select TWO)",
+    "choices": [
+      "A. Fixed monthly pricing",
+      "B. Pay-as-you-go",
+      "C. Annual subscription",
+      "D. Variable costs",
+      "E. Free for all services"
+    ],
+    "fullText": "Correct! The AWS pricing model is pay-as-you-go and has variable costs."
+  },
+  {
+    "question": "Under the shared responsibility model, which of the following tasks are the responsibility of the AWS customer? (Select TWO)",
+    "choices": [
+      "A. Ensuring that application data is encrypted at rest",
+      "B. Managing the physical security of data centers",
+      "C. Ensuring that users have received security training in the use of AWS services",
+      "D. Maintaining the underlying infrastructure",
+      "E. Managing the network infrastructure"
+    ],
+    "fullText": "Correct! Ensuring that application data is encrypted at rest and ensuring that users have received security training in the use of AWS services are the responsibilities of the AWS customer."
+  },
+  {
+    "question": "A customer is using multiple AWS accounts with separate billing. How can the customer take advantage of volume discounts with minimal impact to the AWS resources?",
+    "choices": [
+      "A. By using AWS Trusted Advisor",
+      "B. By using AWS CloudFormation",
+      "C. By using consolidated billing feature from AWS Organizations",
+      "D. By using AWS Cost Explorer"
+    ],
+    "fullText": "Correct! By using the consolidated billing feature from AWS Organizations, a customer can take advantage of volume discounts with minimal impact to the AWS resources."
+  },
+  {
+    "question": "Which AWS services should be used for read/write of constantly changing data? (Select TWO)",
+    "choices": [
+      "A. Amazon Glacier",
+      "B. Amazon RDS",
+      "C. Amazon Redshift",
+      "D. Amazon S3",
+      "E. AWS Snowball"
+    ],
+    "fullText": "Correct! Amazon RDS and Amazon S3 are the AWS services that should be used for read/write of constantly changing data."
+  },
+  {
+    "question": "Which AWS service allows users to identify the changes made to a resource over time?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Config",
+      "C. AWS Trusted Advisor",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! AWS Config allows users to identify the changes made to a resource over time."
+  },
+  {
+    "question": "According to best practices, how should an application be designed to run in the AWS Cloud?",
+    "choices": [
+      "A. Use tightly coupled components",
+      "B. Use loosely coupled components",
+      "C. Use a single Availability Zone",
+      "D. Use on-premises resources"
+    ],
+    "fullText": "Correct! An application should be designed to use loosely coupled components in order to run in the AWS Cloud."
+  },
+  {
+    "question": "Which benefits are included with the AWS Business Support plan? (Select TWO)",
+    "choices": [
+      "A. 24/7 assistance by way of live chat or a telephone call",
+      "B. Access to a Technical Account Manager",
+      "C. An unlimited number of cases and contacts",
+      "D. Access to AWS Forums",
+      "E. Free access to AWS training"
+    ],
+    "fullText": "Correct! The AWS Business Support plan includes 24/7 assistance by way of live chat or a telephone call and an unlimited number of cases and contacts."
+  },
+  {
+    "question": "Which of the following is an AWS managed Domain Name System (DNS) web service?",
+    "choices": [
+      "A. Amazon Route 53",
+      "B. Amazon CloudFront",
+      "C. AWS Lambda",
+      "D. Amazon RDS"
+    ],
+    "fullText": "Correct! Amazon Route 53 is an AWS managed Domain Name System (DNS) web service."
+  },
+  {
+    "question": "A user must meet compliance and software licensing requirements that state a workload must be hosted on a physical server. Which Amazon EC2 instance pricing option will meet these requirements?",
+    "choices": [
+      "A. Spot Instances",
+      "B. On-Demand Instances",
+      "C. Reserved Instances",
+      "D. Dedicated Hosts"
+    ],
+    "fullText": "Correct! Dedicated Hosts is the Amazon EC2 instance pricing option that allows workloads to be hosted on physical servers."
+  },
+  {
+    "question": "Which of the Reserved Instance (RI) pricing models can change the attributes of the RI as long as the exchange results in the creation of RIs of equal or greater value?",
+    "choices": [
+      "A. Standard RIs",
+      "B. Scheduled RIs",
+      "C. Convertible RIs",
+      "D. On-Demand RIs"
+    ],
+    "fullText": "Correct! Convertible RIs allow the attributes of the RI to be changed as long as the exchange results in the creation of RIs of equal or greater value."
+  },
+  {
+    "question": "Which service is best for storing common database query results, which helps to alleviate database access load?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon S3",
+      "C. Amazon ElastiCache",
+      "D. AWS Lambda"
+    ],
+    "fullText": "Correct! Amazon ElastiCache is the service that is best for storing common database query results and helps to alleviate database access load."
+  },
+  {
+    "question": "When should a company consider using Amazon EC2 Spot Instances? (Select TWO)",
+    "choices": [
+      "A. For non-production applications",
+      "B. For applications with a fixed workload",
+      "C. For fault-tolerant flexible applications",
+      "D. For applications requiring dedicated hardware",
+      "E. For applications with strict compliance requirements"
+    ],
+    "fullText": "Correct! Companies should consider using Amazon EC2 Spot Instances for non-production applications and fault-tolerant flexible applications."
+  },
+  {
+    "question": "Which AWS tools assist with estimating costs? (Select three)",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. Cost allocation tags",
+      "C. AWS Simple Monthly Calculator",
+      "D. AWS Total Cost of Ownership (TCO) Calculator",
+      "E. AWS CloudTrail"
+    ],
+    "fullText": "Correct! Cost allocation tags, AWS Simple Monthly Calculator, and AWS Total Cost of Ownership (TCO) Calculator are the AWS tools that assist with estimating costs."
+  },
+  {
+    "question": "A company wants to focus on business activities instead of managing compute and capacity. Which AWS service can be used to automatically add or remove Amazon EC2 instances based on demand?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. Amazon EC2 Auto Scaling",
+      "C. AWS Elastic Beanstalk",
+      "D. AWS OpsWorks"
+    ],
+    "fullText": "Correct! Amazon EC2 Auto Scaling can be used to automatically add or remove Amazon EC2 instances based on demand."
+  },
+  {
+    "question": "Which is the minimum AWS Support plan that includes Infrastructure Event Management without additional costs?",
+    "choices": [
+      "A. Basic",
+      "B. Developer",
+      "C. Business",
+      "D. Enterprise"
+    ],
+    "fullText": "Correct! The Enterprise support plan is the minimum AWS Support plan that includes Infrastructure Event Management without additional costs."
+  },
+  {
+    "question": "Access keys in AWS Identity and Access Management (IAM) are used to:",
+    "choices": [
+      "A. Securely store credentials",
+      "B. Make programmatic calls to AWS from AWS APIs",
+      "C. Encrypt data at rest",
+      "D. Manage user permissions"
+    ],
+    "fullText": "Correct! Access keys in AWS Identity and Access Management (IAM) are used to make programmatic calls to AWS from AWS APIs."
+  },
+  {
+    "question": "Which AWS service can be used to query stored datasets directly from Amazon S3 using standard SQL?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon Redshift",
+      "C. Amazon DynamoDB",
+      "D. Amazon Athena"
+    ],
+    "fullText": "Correct! Amazon Athena can be used to query stored datasets directly from Amazon S3 using standard SQL."
+  },
+  {
+    "question": "How does AWS shorten the time to provision IT resources?",
+    "choices": [
+      "A. By allowing users to programmatically provision existing resources",
+      "B. By offering fixed pricing for all services",
+      "C. By providing free data transfer between regions",
+      "D. By managing the physical security of data centers"
+    ],
+    "fullText": "Correct! By allowing users to programmatically provision existing resources, AWS shortens the time to provision IT resources."
+  },
+  {
+    "question": "Which AWS services can be used to gather information about AWS account activity? (Select TWO)",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Trusted Advisor",
+      "C. AWS CloudTrail",
+      "D. AWS Config",
+      "E. Amazon CloudWatch"
+    ],
+    "fullText": "Correct! AWS CloudTrail and Amazon CloudWatch can be used to gather information about AWS account activity."
+  },
+  {
+    "question": "Which of the following are characteristics of Amazon S3? (Select TWO)",
+    "choices": [
+      "A. Block storage",
+      "B. Object store",
+      "C. Durable storage system",
+      "D. Managed database service",
+      "E. Serverless compute service"
+    ],
+    "fullText": "Correct! Amazon S3 is an object store and a durable storage system."
+  },
+  {
+    "question": "What is an AWS Identity and Access Management (IAM) role?",
+    "choices": [
+      "A. A user account with elevated permissions",
+      "B. A group of users with the same permissions",
+      "C. An entity that defines a set of permissions for use with an AWS resource",
+      "D. A policy that grants access to AWS services"
+    ],
+    "fullText": "Correct! An IAM role is an entity that defines a set of permissions for use with an AWS resource."
+  },
+  {
+    "question": "What are the advantages of Reserved Instances? (Choose two.)",
+    "choices": [
+      "A. They provide a discount over on-demand pricing.",
+      "B. They offer unlimited scalability.",
+      "C. They allow for automatic scaling based on demand.",
+      "D. They require no upfront payment.",
+      "E. Customers can reserve capacity in an Availability Zone."
+    ],
+    "fullText": "The correct answers are A. They provide a discount over on-demand pricing and E. Customers can reserve capacity in an Availability Zone."
+  },
+  {
+    "question": "How do Amazon EC2 Auto Scaling groups help achieve high availability for a web application?",
+    "choices": [
+      "A. They provide a fixed number of instances at all times.",
+      "B. They automatically add or replace instances across multiple Availability Zones when the application needs it.",
+      "C. They offer on-demand instances at a lower cost.",
+      "D. They provide a managed environment for deploying applications."
+    ],
+    "fullText": "Correct! Amazon EC2 Auto Scaling groups help achieve high availability for a web application by automatically adding or replacing instances across multiple Availability Zones when the application needs it."
+  },
+  {
+    "question": "Which Amazon EC2 pricing model offers the MOST significant discount when compared to On-Demand Instances?",
+    "choices": [
+      "A. Spot Instances",
+      "B. Partial Upfront Reserved Instances for a 1-year term",
+      "C. All Upfront Reserved Instances for a 3-year term",
+      "D. No Upfront Reserved Instances for a 3-year term"
+    ],
+    "fullText": "Correct! All Upfront Reserved Instances for a 3-year term offer the most significant discount when compared to On-Demand Instances."
+  },
+  {
+    "question": "What AWS service offers on-demand access to AWS security and compliance reports?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Artifact",
+      "C. AWS Config",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! AWS Artifact offers on-demand access to AWS security and compliance reports."
+  },
+  {
+    "question": "What benefits does using third-party software from AWS Marketplace provide over installing third-party software on Amazon EC2? (Choose two.)",
+    "choices": [
+      "A. Users pay for software by the hour or month depending on licensing.",
+      "B. AWS Marketplace enables the user to launch applications with 1-Click.",
+      "C. It provides automatic detection of objects appearing in pictures.",
+      "D. It offers a managed environment for deploying applications.",
+      "E. It allows for the creation of virtual private networks."
+    ],
+    "fullText": "Correct! Users pay for software by the hour or month depending on licensing, and AWS Marketplace enables the user to launch applications with 1-Click."
+  },
+  {
+    "question": "Which AWS service supports matching the supply of resources with changing workload demands?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Trusted Advisor",
+      "C. Elasticity",
+      "D. AWS Config"
+    ],
+    "fullText": "Correct! Users pay for software by the hour or month depending on licensing, and AWS Marketplace enables the user to launch applications with 1-Click."
+  },
+  {
+    "question": "Which AWS service supports matching the supply of resources with changing workload demands?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Trusted Advisor",
+      "C. Elasticity",
+      "D. AWS Config"
+    ],
+    "fullText": "Correct! Elasticity supports matching the supply of resources with changing workload demands."
+  },
+  {
+    "question": "A user is running an application on AWS and notices that one or more AWS-owned IP addresses is involved in a distributed denial-of-service (DDoS) attack. Who should the user contact FIRST about this situation?",
+    "choices": [
+      "A. AWS Support",
+      "B. AWS Technical Account Manager",
+      "C. AWS Solutions Architect",
+      "D. AWS Abuse team"
+    ],
+    "fullText": "Correct! The AWS Abuse team should be contacted first if one or more AWS-owned IP addresses is involved in a distributed denial-of-service (DDoS) attack."
+  },
+  {
+    "question": "Which AWS service enables users to consolidate billing across multiple accounts?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Organizations",
+      "C. AWS CloudFormation",
+      "D. AWS Cost Explorer"
+    ],
+    "fullText": "Correct! AWS Organizations enables users to consolidate billing across multiple accounts."
+  },
+  {
+    "question": "What is an example of high availability in the AWS Cloud?",
+    "choices": [
+      "A. Ensuring data is encrypted",
+      "B. Ensuring an application remains accessible, even if a resource fails",
+      "C. Using IAM roles for access control",
+      "D. Implementing security groups"
+    ],
+    "fullText": "Correct! Ensuring an application remains accessible, even if a resource fails, is an example of high availability in the AWS Cloud."
+  },
+  {
+    "question": "Which AWS security service protects applications from distributed denial of service attacks with always-on detection and automatic inline mitigations?",
+    "choices": [
+      "A. AWS WAF",
+      "B. AWS Shield",
+      "C. AWS Inspector",
+      "D. AWS GuardDuty"
+    ],
+    "fullText": "Correct! AWS Shield protects applications from distributed denial of service attacks with always-on detection and automatic inline mitigations."
+  },
+  {
+    "question": "A company wants to monitor the CPU usage of its Amazon EC2 resources. Which AWS service should the company use?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. Amazon CloudWatch",
+      "C. AWS Config",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! Amazon CloudWatch should be used to monitor the CPU usage of Amazon EC2 resources."
+  },
+  {
+    "question": "Which of the following is an advantage of using AWS?",
+    "choices": [
+      "A. There is no guessing on capacity needs.",
+      "B. It requires long-term contracts.",
+      "C. It offers fixed pricing for all services.",
+      "D. It provides free data transfer between regions."
+    ],
+    "fullText": "Correct! There is no guessing on capacity needs when using AWS."
+  },
+  {
+    "question": "What AWS service handles the deployment details of capacity provisioning, load balancing, Auto Scaling, and application health monitoring?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Elastic Beanstalk",
+      "C. AWS OpsWorks",
+      "D. AWS CodeDeploy"
+    ],
+    "fullText": "Correct! AWS Elastic Beanstalk handles the deployment details of capacity provisioning, load balancing, Auto Scaling, and application health monitoring."
+  },
+  {
+    "question": "Which AWS service provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Elastic Beanstalk",
+      "C. Amazon VPC",
+      "D. AWS Lambda"
+    ],
+    "fullText": "Correct! Amazon VPC provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2."
+  },
+  {
+    "question": "What is the purpose of AWS CloudFormation?",
+    "choices": [
+      "A. To provide managed database services",
+      "B. To enable serverless computing",
+      "C. To model and provision AWS resources",
+      "D. To monitor and log AWS account activity"
+    ],
+    "fullText": "Correct! AWS CloudFormation is used to model and provision AWS resources."
+  },
+  {
+    "question": "Which AWS service can be used to query stored datasets directly from Amazon S3 using standard SQL?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon Redshift",
+      "C. Amazon DynamoDB",
+      "D. Amazon Athena"
+    ],
+    "fullText": "Correct! Amazon Athena can be used to query stored datasets directly from Amazon S3 using standard SQL."
+  },
+  {
+    "question": "What is the AWS Shared Responsibility Model?",
+    "choices": [
+      "A. A model where AWS is responsible for all security aspects.",
+      "B. A model where the customer is responsible for all security aspects.",
+      "C. A model where AWS and the customer share security responsibilities.",
+      "D. A model where third-party vendors handle security responsibilities."
+    ],
+    "fullText": "Correct! The AWS Shared Responsibility Model is a model where AWS and the customer share security responsibilities."
+  },
+  {
+    "question": "What is the purpose of AWS CloudFormation?",
+    "choices": [
+      "A. To provide managed database services",
+      "B. To enable serverless computing",
+      "C. To model and provision AWS resources",
+      "D. To monitor and log AWS account activity"
+    ],
+    "fullText": "Correct! AWS CloudFormation is used to model and provision AWS resources."
+  },
+  {
+    "question": "Which AWS service provides a self-service portal for on-demand access to AWS compliance reports?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Artifact",
+      "C. AWS Inspector",
+      "D. AWS Config"
+    ],
+    "fullText": "Correct! AWS Artifact provides a self-service portal for on-demand access to AWS compliance reports."
+  },
+  {
+    "question": "How can an AWS user with an AWS Basic Support plan obtain technical assistance from AWS?",
+    "choices": [
+      "A. AWS Discussion Forums",
+      "B. AWS Technical Account Manager",
+      "C. AWS Support Center",
+      "D. AWS Trusted Advisor"
+    ],
+    "fullText": "Correct! AWS Discussion Forums is the way an AWS user with an AWS Basic Support plan can obtain technical assistance from AWS."
+  },
+  {
+    "question": "Which of the following is an AWS Well-Architected Framework design principle related to reliability?",
+    "choices": [
+      "A. Ability to recover from failure",
+      "B. Use of on-demand resources",
+      "C. Cost optimization",
+      "D. Elasticity"
+    ],
+    "fullText": "Correct! The ability to recover from failure is an AWS Well-Architected Framework design principle related to reliability."
+  },
+  {
+    "question": "Which Amazon EC2 pricing model is the MOST cost-efficient for an uninterruptible workload that runs once a year for 24 hours?",
+    "choices": [
+      "A. On-Demand Instances",
+      "B. Spot Instances",
+      "C. Reserved Instances",
+      "D. Dedicated Hosts"
+    ],
+    "fullText": "Correct! Reserved Instances are the most cost-efficient for an uninterruptible workload that runs once a year for 24 hours."
+  },
+  {
+    "question": "Which Amazon Virtual Private Cloud (Amazon VPC. feature enables users to connect two VPCs together?",
+    "choices": [
+      "A. VPC Peering",
+      "B. VPC Endpoint",
+      "C. VPC Flow Logs",
+      "D. VPC Subnets"
+    ],
+    "fullText": "Correct! VPC Peering enables users to connect two VPCs together."
+  },
+  {
+    "question": "Which AWS service can be used to set up an alert notification when the account is approaching a particular dollar amount?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Budgets",
+      "C. AWS CloudFormation",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! AWS Budgets can be used to set up an alert notification when the account is approaching a particular dollar amount."
+  },
+  {
+    "question": "What is the purpose of AWS CloudFormation?",
+    "choices": [
+      "A. To provide managed database services",
+      "B. To enable serverless computing",
+      "C. To model and provision AWS resources",
+      "D. To monitor and log AWS account activity"
+    ],
+    "fullText": "Correct! AWS CloudFormation is used to model and provision AWS resources."
+  },
+  {
+    "question": "Which AWS service provides a self-service portal for on-demand access to AWS compliance reports?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Artifact",
+      "C. AWS Inspector",
+      "D. AWS Config"
+    ],
+    "fullText": "Correct! AWS Artifact provides a self-service portal for on-demand access to AWS compliance reports."
+  },
+  {
+    "question": "What are the three components of AWS global infrastructure?",
+    "choices": [
+      "A. Regions, Availability Zones, and Edge Locations",
+      "B. Regions, Data Centers, and Edge Locations",
+      "C. Availability Zones, Data Centers, and Edge Locations",
+      "D. Regions, Data Centers, and Availability Zones"
+    ],
+    "fullText": "Correct! The three components of AWS global infrastructure are Regions, Availability Zones, and Edge Locations."
+  },
+  {
+    "question": "How can you select the right region for your applications?",
+    "choices": [
+      "A. By choosing the region with the most services available",
+      "B. By considering factors such as latency, compliance requirements, and data residency",
+      "C. By selecting the region closest to your company's headquarters",
+      "D. By choosing the region with the lowest cost"
+    ],
+    "fullText": "Correct! By considering factors such as latency, compliance requirements, and data residency, you can select the right region for your applications."
+  },
+  {
+    "question": "Which AWS service provides a self-service portal for on-demand access to AWS compliance reports?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Artifact",
+      "C. AWS Inspector",
+      "D. AWS Config"
+    ],
+    "fullText": "Correct! AWS Artifact provides a self-service portal for on-demand access to AWS compliance reports."
+  },
+  {
+    "question": "A company requires a dedicated network connection between its on-premises servers and the AWS Cloud. Which AWS service should be used?",
+    "choices": [
+      "A. AWS VPN",
+      "B. AWS Direct Connect",
+      "C. AWS Transit Gateway",
+      "D. AWS Global Accelerator"
+    ],
+    "fullText": "Correct! AWS Direct Connect should be used for a dedicated network connection between on-premises servers and the AWS Cloud."
+  },
+  {
+    "question": "Which AWS service can be used to query stored datasets directly from Amazon S3 using standard SQL?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon Redshift",
+      "C. Amazon DynamoDB",
+      "D. Amazon Athena"
+    ],
+    "fullText": "Correct! Amazon Athena can be used to query stored datasets directly from Amazon S3 using standard SQL."
+  },
+  {
+    "question": "What is the AWS Shared Responsibility Model?",
+    "choices": [
+      "A. A model where AWS is responsible for all security aspects.",
+      "B. A model where the customer is responsible for all security aspects.",
+      "C. A model where AWS and the customer share security responsibilities.",
+      "D. A model where third-party vendors handle security responsibilities."
+    ],
+    "fullText": "Correct! The AWS Shared Responsibility Model is a model where AWS and the customer share security responsibilities."
+  },
+  {
+    "question": "What technology enables compute capacity to adjust as loads change?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS Trusted Advisor",
+      "C. Amazon RDS",
+      "D. Auto Scaling"
+    ],
+    "fullText": "Correct! Auto Scaling technology enables compute capacity to adjust as loads change."
+  },
+  {
+    "question": "Which AWS service is a managed NoSQL database?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon DynamoDB",
+      "C. Amazon Redshift",
+      "D. Amazon Aurora"
+    ],
+    "fullText": "Correct! Amazon DynamoDB is a managed NoSQL database service."
+  },
+  {
+    "question": "Which of the following is a correct relationship between regions, Availability Zones, and edge locations?",
+    "choices": [
+      "A. Availability Zones contain regions and edge locations.",
+      "B. Regions contain Availability Zones and edge locations.",
+      "C. Edge locations contain regions and Availability Zones.",
+      "D. Regions and Availability Zones are independent of edge locations."
+    ],
+    "fullText": "Correct! Regions contain Availability Zones and edge locations."
+  },
+  {
+    "question": "What approach to transcoding a large number of individual video files adheres to AWS architecture principles?",
+    "choices": [
+      "A. Using a single large instance",
+      "B. Using many instances in parallel",
+      "C. Using on-premises servers",
+      "D. Using a single Availability Zone"
+    ],
+    "fullText": "Correct! Using many instances in parallel adheres to AWS architecture principles for transcoding a large number of individual video files."
+  },
+  {
+    "question": "Which AWS services can host a Microsoft SQL Server database? (Select TWO)",
+    "choices": [
+      "A. Amazon EC2",
+      "B. Amazon RDS",
+      "C. Amazon S3",
+      "D. AWS Lambda",
+      "E. Amazon DynamoDB"
+    ],
+    "fullText": "Correct! Amazon EC2 and Amazon RDS can host a Microsoft SQL Server database."
+  },
+  {
+    "question": "Which AWS IAM feature allows developers to access AWS services through the AWS CLI?",
+    "choices": [
+      "A. IAM roles",
+      "B. Access keys",
+      "C. IAM policies",
+      "D. IAM users"
+    ],
+    "fullText": "Correct! Access keys in AWS Identity and Access Management (IAM) allow developers to access AWS services through the AWS CLI."
+  },
+  {
+    "question": "The user is fully responsible for which action when running workloads on AWS?",
+    "choices": [
+      "A. Managing the physical security of data centers",
+      "B. Maintaining the network infrastructure",
+      "C. Patching the underlying hypervisor",
+      "D. Implementing controls to route application traffic"
+    ],
+    "fullText": "Correct! Implementing controls to route application traffic is the user's responsibility when running workloads on AWS."
+  },
+  {
+    "question": "What will help a company perform a cost-benefit analysis of migrating to the AWS Cloud?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Total Cost of Ownership (TCO) Calculator",
+      "C. AWS CloudFormation",
+      "D. AWS Cost Explorer"
+    ],
+    "fullText": "Correct! The AWS Total Cost of Ownership (TCO) Calculator helps a company perform a cost-benefit analysis of migrating to the AWS Cloud."
+  },
+  {
+    "question": "Which of the following provides the ability to share the cost benefits of Reserved Instances across AWS accounts?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. Linked accounts and consolidated billing",
+      "C. AWS CloudFormation",
+      "D. AWS Cost Explorer"
+    ],
+    "fullText": "Correct! Linked accounts and consolidated billing provide the ability to share the cost benefits of Reserved Instances across AWS accounts."
+  },
+  {
+    "question": "A company has multiple AWS accounts and wants to simplify and consolidate its billing process. Which AWS service will achieve this?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Organizations",
+      "C. AWS CloudFormation",
+      "D. AWS Cost Explorer"
+    ],
+    "fullText": "Correct! AWS Organizations will achieve the goal of simplifying and consolidating the billing process for multiple AWS accounts."
+  },
+  {
+    "question": "A company is designing an application hosted in a single AWS Region serving end-users spread across the world. The company wants to provide the end-users low latency access to the application data. Which of the following services will help fulfill this requirement?",
+    "choices": [
+      "A. Amazon CloudFront",
+      "B. Amazon RDS",
+      "C. AWS Lambda",
+      "D. Amazon S3"
+    ],
+    "fullText": "Correct! Amazon CloudFront will help provide low latency access to application data for end-users spread across the world."
+  },
+  {
+    "question": "Which of the following deployment models enables customers to fully trade their capital IT expenses for operational expenses?",
+    "choices": [
+      "A. On-premises",
+      "B. Hybrid",
+      "C. Cloud",
+      "D. Colocation"
+    ],
+    "fullText": "Correct! The cloud deployment model enables customers to fully trade their capital IT expenses for operational expenses."
+  },
+  {
+    "question": "How is asset management on AWS easier than asset management in a physical data center?",
+    "choices": [
+      "A. AWS performs infrastructure discovery scans on the customer's behalf.",
+      "B. AWS provides a fixed pricing model for all services.",
+      "C. AWS offers unlimited storage capacity.",
+      "D. AWS manages all customer applications."
+    ],
+    "fullText": "The correct answer is B. AWS performs infrastructure discovery scans on the customer's behalf."
+  },
+  {
+    "question": "What feature of Amazon RDS helps to create globally redundant databases?",
+    "choices": [
+      "A. Multi-AZ deployments",
+      "B. Read replicas",
+      "C. Cross-Region read replicas",
+      "D. Automated backups"
+    ],
+    "fullText": "Correct! Cross-Region read replicas help create globally redundant databases in Amazon RDS."
+  },
+  {
+    "question": "Using AWS Identity and Access Management (IAM) to grant access only to the resources needed to perform a task is a concept known as:",
+    "choices": [
+      "A. Role-based access control",
+      "B. Multi-factor authentication",
+      "C. Least privilege access",
+      "D. Single sign-on"
+    ],
+    "fullText": "Correct! Using AWS Identity and Access Management (IAM) to grant access only to the resources needed to perform a task is a concept known as least privilege access."
+  },
+  {
+    "question": "Which methods can be used to identify AWS costs by departments? (Choose two.)",
+    "choices": [
+      "A. Create separate accounts for each department",
+      "B. Use consolidated billing",
+      "C. Use tags to associate each instance with a particular department",
+      "D. Use AWS Cost Explorer",
+      "E. Use AWS Trusted Advisor"
+    ],
+    "fullText": "Correct! Creating separate accounts for each department and using tags to associate each instance with a particular department are methods to identify AWS costs by departments."
+  },
+  {
+    "question": "Under the AWS shared responsibility model, customer responsibilities include which one of the following?",
+    "choices": [
+      "A. Managing the physical security of data centers",
+      "B. Maintaining the network infrastructure",
+      "C. Configuring the operating system, network, and firewall",
+      "D. Ensuring the availability of AWS services"
+    ],
+    "fullText": "Correct! Configuring the operating system, network, and firewall is the customer's responsibility under the AWS shared responsibility model."
+  },
+  {
+    "question": "Which managed AWS service provides real-time guidance on AWS security best practices?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Trusted Advisor",
+      "C. AWS Inspector",
+      "D. AWS Config"
+    ],
+    "fullText": "Correct! AWS Trusted Advisor provides real-time guidance on AWS security best practices."
+  },
+  {
+    "question": "Which feature adds elasticity to Amazon EC2 instances to handle the changing demand for workloads?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. AWS Lambda",
+      "C. Amazon S3",
+      "D. Amazon EC2 Auto Scaling"
+    ],
+    "fullText": "Correct! Amazon EC2 Auto Scaling adds elasticity to Amazon EC2 instances to handle the changing demand for workloads."
+  },
+  {
+    "question": "Which AWS service can a customer use to set up an alert notification when the account is approaching a particular dollar amount?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Budgets",
+      "C. AWS CloudFormation",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! AWS Budgets can be used to set up an alert notification when the account is approaching a particular dollar amount."
+  },
+  {
+    "question": "Which is the MINIMUM AWS Support plan that provides designated Technical Account Managers?",
+    "choices": [
+      "A. Basic",
+      "B. Developer",
+      "C. Business",
+      "D. Enterprise"
+    ],
+    "fullText": "Correct! The Enterprise support plan is the minimum AWS Support plan that provides designated Technical Account Managers."
+  },
+  {
+    "question": "Which AWS service allows users to identify the changes made to a resource over time?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Config",
+      "C. AWS Trusted Advisor",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! AWS Config allows users to identify the changes made to a resource over time."
+  },
+  {
+    "question": "According to best practices, how should an application be designed to run in the AWS Cloud?",
+    "choices": [
+      "A. Use tightly coupled components",
+      "B. Use loosely coupled components",
+      "C. Use a single Availability Zone",
+      "D. Use on-premises resources"
+    ],
+    "fullText": "Correct! An application should be designed to use loosely coupled components in order to run in the AWS Cloud."
+  },
+  {
+    "question": "Which benefits are included with the AWS Business Support plan? (Select TWO)",
+    "choices": [
+      "A. 24/7 assistance by way of live chat or a telephone call",
+      "B. Access to a Technical Account Manager",
+      "C. An unlimited number of cases and contacts",
+      "D. Access to AWS Forums",
+      "E. Free access to AWS training"
+    ],
+    "fullText": "Correct! The AWS Business Support plan includes 24/7 assistance by way of live chat or a telephone call and an unlimited number of cases and contacts."
+  },
+  {
+    "question": "When comparing AWS with on-premises Total Cost of Ownership (TCO), what costs are included?",
+    "choices": [
+      "A. Data center security",
+      "B. Office supplies",
+      "C. Employee training",
+      "D. Marketing expenses"
+    ],
+    "fullText": "Correct! The correct answer is A. Data center security."
+  },
+  {
+    "question": "According to the AWS shared responsibility model, what is AWS responsible for?",
+    "choices": [
+      "A. Managing customer data",
+      "B. Configuring security groups",
+      "C. Managing application security",
+      "D. Managing the network infrastructure"
+    ],
+    "fullText": "Correct! The correct answer is D. Managing the network infrastructure."
+  },
+  {
+    "question": "Which service should be used to estimate the costs of running a new project on AWS?",
+    "choices": [
+      "A. AWS Trusted Advisor",
+      "B. AWS Pricing Calculator",
+      "C. AWS Cost Explorer API",
+      "D. AWS Budgets"
+    ],
+    "fullText": "Correct! The correct answer is C. AWS Cost Explorer API."
+  },
+  {
+    "question": "Which AWS tool will identify security groups that grant unrestricted Internet access to a limited list of ports?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Trusted Advisor",
+      "C. AWS IAM",
+      "D. AWS Config"
+    ],
+    "fullText": "Correct! The correct answer is B. AWS Trusted Advisor."
+  },
+  {
+    "question": "Which AWS service can be used to generate alerts based on an estimated monthly bill?",
+    "choices": [
+      "A. AWS Budgets",
+      "B. Amazon CloudWatch",
+      "C. AWS Cost Explorer",
+      "D. AWS Trusted Advisor"
+    ],
+    "fullText": "Correct! The correct answer is B. Amazon CloudWatch."
+  },
+  {
+    "question": "Which Amazon EC2 pricing model offers the MOST significant discount when compared to On-Demand Instances?",
+    "choices": [
+      "A. Spot Instances",
+      "B. Partial Upfront Reserved Instances for a 1-year term",
+      "C. All Upfront Reserved Instances for a 3-year term",
+      "D. No Upfront Reserved Instances for a 1-year term"
+    ],
+    "fullText": "Correct! The correct answer is C. All Upfront Reserved Instances for a 3-year term."
+  },
+  {
+    "question": "Which of the following is the responsibility of AWS?",
+    "choices": [
+      "A. Managing customer data",
+      "B. Physically destroying storage media at end of life",
+      "C. Configuring security groups",
+      "D. Managing application security"
+    ],
+    "fullText": "Correct! The correct answer is B. Physically destroying storage media at end of life."
+  },
+  {
+    "question": "Which AWS service would a customer use with a static website to achieve lower latency and high transfer speeds?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. AWS Lambda",
+      "C. Amazon EC2",
+      "D. Amazon CloudFront"
+    ],
+    "fullText": "Correct! The correct answer is D. Amazon CloudFront."
+  },
+  {
+    "question": "Which services manage and automate application deployments on AWS? (Choose two.)",
+    "choices": [
+      "A. AWS Elastic Beanstalk",
+      "B. Amazon RDS",
+      "C. Amazon CloudFront",
+      "D. AWS CloudFormation"
+    ],
+    "fullText": "Correct! The correct answers are A. AWS Elastic Beanstalk and D. AWS CloudFormation."
+  },
+  {
+    "question": "A customer wants guidance on possible savings when migrating from on-premises to AWS. Which tool is suitable for this scenario?",
+    "choices": [
+      "A. AWS Pricing Calculator",
+      "B. AWS Budgets",
+      "C. AWS Total Cost of Ownership (TCO) Calculator",
+      "D. AWS Trusted Advisor"
+    ],
+    "fullText": "Correct! The correct answer is C. AWS Total Cost of Ownership (TCO) Calculator."
+  },
+  {
+    "question": "Which principles are used to architect applications for reliability on the AWS Cloud? (Choose two.)",
+    "choices": [
+      "A. Design for automated failure recovery",
+      "B. Use multiple Availability Zones",
+      "C. Implement single points of failure",
+      "D. Use monolithic architecture"
+    ],
+    "fullText": "Correct! The correct answers are A. Design for automated failure recovery and B. Use multiple Availability Zones."
+  },
+  {
+    "question": "What tasks should a customer perform when that customer suspects an AWS account has been compromised? (Choose two.)",
+    "choices": [
+      "A. Rotate passwords and access keys",
+      "B. Delete the compromised account",
+      "C. Stop all running instances",
+      "D. Change the AWS region",
+      "E. Contact AWS Support"
+    ],
+    "fullText": "The correct answers are A. Rotate passwords and access keys and E. Contact AWS Support."
+  },
+  {
+    "question": "What is an example of high availability in the AWS Cloud?",
+    "choices": [
+      "A. Using a single EC2 instance with a large instance type",
+      "B. Ensuring an application remains accessible, even if a resource fails",
+      "C. Deploying resources in a single Availability Zone",
+      "D. Using on-demand instances only"
+    ],
+    "fullText": "Correct! The correct answer is B. Ensuring an application remains accessible, even if a resource fails."
+  },
+  {
+    "question": "Which AWS security service protects applications from distributed denial of service attacks with always-on detection and automatic inline mitigations?",
+    "choices": [
+      "A. AWS WAF",
+      "B. AWS IAM",
+      "C. AWS CloudTrail",
+      "D. AWS Shield"
+    ],
+    "fullText": "AWS WAF"
+  },
+  {
+    "question": "A company wants to monitor the CPU usage of its Amazon EC2 resources. Which AWS service should the company use?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. Amazon CloudWatch",
+      "C. AWS Trusted Advisor",
+      "D. AWS Config"
+    ],
+    "fullText": "Correct! The correct answer is B. Amazon CloudWatch."
+  },
+  {
+    "question": "What is an AWS Identity and Access Management (IAM) role?",
+    "choices": [
+      "A. A user account with administrative privileges",
+      "B. A group of users with similar permissions",
+      "C. An entity that defines a set of permissions for use with an AWS resource",
+      "D. A policy that grants access to AWS services"
+    ],
+    "fullText": "D"
+  },
+  {
+    "question": "What are the advantages of Reserved Instances? (Choose two.)",
+    "choices": [
+      "A. They provide a discount over on-demand pricing",
+      "B. They offer flexibility to change instance types",
+      "C. They allow for hourly billing",
+      "D. They provide on-demand capacity",
+      "E. Customers can reserve capacity in an Availability Zone"
+    ],
+    "fullText": "Correct! The correct answers are A. They provide a discount over on-demand pricing and E. Customers can reserve capacity in an Availability Zone."
+  },
+  {
+    "question": "How do Amazon EC2 Auto Scaling groups help achieve high availability for a web application?",
+    "choices": [
+      "A. They provide a single point of failure for the application.",
+      "B. They automatically add or replace instances across multiple Availability Zones when the application needs it.",
+      "C. They allow for manual scaling of instances.",
+      "D. They provide a fixed number of instances regardless of demand."
+    ],
+    "fullText": "Correct! The correct answer is B. They automatically add or replace instances across multiple Availability Zones when the application needs it."
+  },
+  {
+    "question": "Which AWS service offers on-demand access to AWS security and compliance reports?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Artifact",
+      "C. AWS Trusted Advisor",
+      "D. AWS Config"
+    ],
+    "fullText": "C"
+  },
+  {
+    "question": "Which AWS service provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS IAM",
+      "C. Amazon VPC",
+      "D. AWS Config"
+    ],
+    "fullText": "C"
+  },
+  {
+    "question": "When a company provisions web servers in multiple AWS Regions, what is being increased?",
+    "choices": [
+      "A. Security",
+      "B. Availability",
+      "C. Cost",
+      "D. Latency"
+    ],
+    "fullText": "B"
+  },
+  {
+    "question": "The pay-as-you-go pricing model for AWS services:",
+    "choices": [
+      "A. Requires long-term commitments",
+      "B. Reduces capital expenditures",
+      "C. Offers volume discounts",
+      "D. Requires upfront payments"
+    ],
+    "fullText": "B"
+  },
+  {
+    "question": "Which AWS service offers VPN connectivity to a VPC using IPSec VPN tunnels?",
+    "choices": [
+      "A. AWS Direct Connect",
+      "B. Amazon CloudFront",
+      "C. AWS VPN",
+      "D. AWS Shield"
+    ],
+    "fullText": "C"
+  },
+  {
+    "question": "How can one AWS account use Reserved Instances from another AWS account?",
+    "choices": [
+      "A. By using AWS Organizations consolidated billing",
+      "B. By sharing IAM roles",
+      "C. By setting up cross-account access",
+      "D. By using AWS Direct Connect"
+    ],
+    "fullText": "C"
+  },
+  {
+    "question": "Which AWS service provides a fully-managed NoSQL database service?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon Redshift",
+      "C. Amazon DynamoDB",
+      "D. Amazon Aurora"
+    ],
+    "fullText": "Correct! The correct answer is C. Amazon DynamoDB."
+  },
+  {
+    "question": "Which AWS service provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS IAM",
+      "C. Amazon VPC",
+      "D. AWS Config"
+    ],
+    "fullText": "Correct! The correct answer is C. Amazon VPC."
+  },
+  {
+    "question": "What is the purpose of AWS Lambda?",
+    "choices": [
+      "A. To provide a managed database service",
+      "B. To run code without provisioning or managing servers",
+      "C. To manage virtual private networks",
+      "D. To provide object storage"
+    ],
+    "fullText": "Correct! The correct answer is B. To run code without provisioning or managing servers."
+  },
+  {
+    "question": "What is the purpose of AWS Step Functions?",
+    "choices": [
+      "A. To provide a managed database service",
+      "B. To coordinate and visualize the components of distributed applications",
+      "C. To manage virtual private networks",
+      "D. To provide object storage"
+    ],
+    "fullText": "Correct! The correct answer is B. To coordinate and visualize the components of distributed applications."
+  },
+  {
+    "question": "Which AWS service provides a fully-managed data warehouse?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon Redshift",
+      "C. Amazon DynamoDB",
+      "D. Amazon Aurora"
+    ],
+    "fullText": "Correct! The correct answer is B"
+  },
+  {
+    "question": "Which AWS service can be used to run Windows applications on AWS?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon DynamoDB",
+      "C. Amazon AppStream 2.0",
+      "D. Amazon Redshift"
+    ],
+    "fullText": "Correct! The correct answer is C"
+  },
+  {
+    "question": "What is the purpose of Amazon CloudFront?",
+    "choices": [
+      "A. To provide a managed database service",
+      "B. To run code without provisioning or managing servers",
+      "C. To deliver content to end users with low-latency and high transfer speeds",
+      "D. To provide object storage"
+    ],
+    "fullText": "Correct! The correct answer is C"
+  },
+  {
+    "question": "Which AWS service can be used to automate software release processes?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS CodePipeline",
+      "C. AWS Elastic Beanstalk",
+      "D. AWS OpsWorks"
+    ],
+    "fullText": "Correct! The correct answer is B. AWS CodePipeline."
+  },
+  {
+    "question": "Which AWS service can be used to automate resource provisioning and configuration management?",
+    "choices": [
+      "A. AWS CloudFormation",
+      "B. AWS CodeDeploy",
+      "C. AWS Elastic Beanstalk",
+      "D. AWS OpsWorks"
+    ],
+    "fullText": "Correct! The correct answer is A"
+  },
+  {
+    "question": "Which AWS service can be used to analyze large datasets in a distributed and parallel manner?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon DynamoDB",
+      "C. Amazon Redshift",
+      "D. Amazon EMR (Elastic MapReduce)"
+    ],
+    "fullText": "Correct! The correct answer is D. Amazon EMR (Elastic MapReduce)."
+  },
+  {
+    "question": "What time-savings advantage is offered with the use of Amazon Rekognition?",
+    "choices": [
+      "A. It provides automatic detection of objects appearing in pictures.",
+      "B. It reduces the need for manual tagging of images.",
+      "C. It enables real-time video analysis.",
+      "D. It offers pre-trained models for image recognition."
+    ],
+    "fullText": "The correct answer is B. Amazon Rekognition provides automatic detection of objects appearing in pictures."
+  },
+  {
+    "question": "When comparing AWS with on-premises Total Cost of Ownership (TCO), what costs are included?",
+    "choices": [
+      "A. Data center security",
+      "B. Software licensing",
+      "C. Hardware maintenance",
+      "D. All of the above"
+    ],
+    "fullText": "The correct answer is A. Data center security."
+  },
+  {
+    "question": "According to the AWS shared responsibility model, what is AWS responsible for?",
+    "choices": [
+      "A. Managing user access",
+      "B. Encrypting customer data",
+      "C. Configuring network firewalls",
+      "D. Managing the network infrastructure"
+    ],
+    "fullText": "Correct! AWS is responsible for managing the network infrastructure."
+  },
+  {
+    "question": "Which service should be used to estimate the costs of running a new project on AWS?",
+    "choices": [
+      "A. AWS Pricing Calculator",
+      "B. AWS Trusted Advisor",
+      "C. AWS Cost Explorer API",
+      "D. AWS Budgets"
+    ],
+    "fullText": "Correct! AWS Cost Explorer API is used to estimate the costs of running a new project on AWS."
+  },
+  {
+    "question": "Which AWS tool will identify security groups that grant unrestricted Internet access to a limited list of ports?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Trusted Advisor",
+      "C. AWS Config",
+      "D. AWS Inspector"
+    ],
+    "fullText": "Correct! AWS Trusted Advisor identifies security groups that grant unrestricted Internet access to a limited list of ports."
+  },
+  {
+    "question": "Which AWS service can be used to generate alerts based on an estimated monthly bill?",
+    "choices": [
+      "A. AWS Budgets",
+      "B. Amazon CloudWatch",
+      "C. AWS Cost Explorer",
+      "D. AWS Trusted Advisor"
+    ],
+    "fullText": "Correct! Amazon CloudWatch can be used to generate alerts based on an estimated monthly bill."
+  },
+  {
+    "question": "Which Amazon EC2 pricing model offers the MOST significant discount when compared to On-Demand Instances?",
+    "choices": [
+      "A. Spot Instances",
+      "B. Partial Upfront Reserved Instances for a 1-year term",
+      "C. All Upfront Reserved Instances for a 3-year term",
+      "D. No Upfront Reserved Instances for a 1-year term"
+    ],
+    "fullText": "Correct! All Upfront Reserved Instances for a 3-year term offer the most significant discount when compared to On-Demand Instances."
+  },
+  {
+    "question": "Which of the following is the responsibility of AWS?",
+    "choices": [
+      "A. Managing customer data",
+      "B. Physically destroying storage media at end of life",
+      "C. Configuring security groups",
+      "D. Managing application software updates"
+    ],
+    "fullText": "Correct! AWS is responsible for physically destroying storage media at end of life."
+  },
+  {
+    "question": "Which AWS service would a customer use with a static website to achieve lower latency and high transfer speeds?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon S3",
+      "C. AWS Lambda",
+      "D. Amazon CloudFront"
+    ],
+    "fullText": "Correct! Amazon CloudFront is used to achieve lower latency and high transfer speeds for a static website."
+  },
+  {
+    "question": "Which AWS service provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2?",
+    "choices": [
+      "A. AWS Shield",
+      "B. AWS WAF",
+      "C. Amazon VPC",
+      "D. AWS Direct Connect"
+    ],
+    "fullText": "Correct! Amazon VPC provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2."
+  },
+  {
+    "question": "Which AWS service supports matching the supply of resources with changing workload demands?",
+    "choices": [
+      "A. AWS Elastic Beanstalk",
+      "B. AWS CloudFormation",
+      "C. Elasticity",
+      "D. AWS OpsWorks"
+    ],
+    "fullText": "Correct! Elasticity supports matching the supply of resources with changing workload demands."
+  },
+  {
+    "question": "Which AWS service provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2?",
+    "choices": [
+      "A. AWS Shield",
+      "B. AWS WAF",
+      "C. Amazon VPC",
+      "D. AWS Direct Connect"
+    ],
+    "fullText": "Correct! Amazon VPC provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2."
+  },
+  {
+    "question": "Which AWS service provides a fully-managed NoSQL database service?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon Redshift",
+      "C. Amazon DynamoDB",
+      "D. Amazon Aurora"
+    ],
+    "fullText": "Correct! Amazon DynamoDB provides a fully-managed NoSQL database service."
+  },
+  {
+    "question": "Which AWS service can be used to automate code deployments to EC2 instances?",
+    "choices": [
+      "A. AWS CodePipeline",
+      "B. AWS CodeDeploy",
+      "C. AWS CloudFormation",
+      "D. AWS Elastic Beanstalk"
+    ],
+    "fullText": "Correct! AWS CodeDeploy can be used to automate code deployments to EC2 instances."
+  },
+  {
+    "question": "What is an example of high availability in the AWS Cloud?",
+    "choices": [
+      "A. Using a single Availability Zone for all resources",
+      "B. Ensuring an application remains accessible, even if a resource fails",
+      "C. Manually scaling resources based on demand",
+      "D. Using on-premises backup for cloud resources"
+    ],
+    "fullText": "Correct! Ensuring an application remains accessible, even if a resource fails, is an example of high availability in the AWS Cloud."
+  },
+  {
+    "question": "Which AWS security service protects applications from distributed denial of service attacks with always-on detection and automatic inline mitigations?",
+    "choices": [
+      "A. AWS WAF",
+      "B. AWS Shield",
+      "C. AWS Firewall Manager",
+      "D. AWS GuardDuty"
+    ],
+    "fullText": "A"
+  },
+  {
+    "question": "Which AWS service can be used to turn streaming data into actionable insights in real-time?",
+    "choices": [
+      "A. Amazon Redshift",
+      "B. Amazon EMR",
+      "C. Amazon Athena",
+      "D. Amazon Kinesis"
+    ],
+    "fullText": "Correct! Amazon Kinesis can be used to turn streaming data into actionable insights in real-time."
+  },
+  {
+    "question": "Which AWS service enables users to consolidate billing across multiple accounts?",
+    "choices": [
+      "A. AWS Budgets",
+      "B. AWS Organizations",
+      "C. AWS Trusted Advisor",
+      "D. AWS Cost Explorer"
+    ],
+    "fullText": "Correct! AWS Organizations enables users to consolidate billing across multiple accounts."
+  },
+  {
+    "question": "Which AWS service can be used to query stored datasets directly from Amazon S3 using standard SQL?",
+    "choices": [
+      "A. Amazon Redshift",
+      "B. Amazon EMR",
+      "C. Amazon Athena",
+      "D. Amazon RDS"
+    ],
+    "fullText": "Correct! Amazon Athena can be used to query stored datasets directly from Amazon S3 using standard SQL."
+  },
+  {
+    "question": "Which AWS service can be used to enable secure user authentication and authorization for web applications?",
+    "choices": [
+      "A. Amazon Cognito",
+      "B. AWS IAM",
+      "C. AWS Directory Service",
+      "D. AWS Single Sign-On"
+    ],
+    "fullText": "A"
+  },
+  {
+    "question": "Which AWS service provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2?",
+    "choices": [
+      "A. AWS Shield",
+      "B. AWS WAF",
+      "C. Amazon VPC",
+      "D. AWS Direct Connect"
+    ],
+    "fullText": "C"
+  },
+  {
+    "question": "Which AWS service provides a scalable and fully managed data warehouse?",
+    "choices": [
+      "A. Amazon RDS",
+      "B. Amazon Redshift",
+      "C. Amazon DynamoDB",
+      "D. Amazon Aurora"
+    ],
+    "fullText": "Correct! Amazon Redshift provides a scalable and fully managed data warehouse."
+  },
+  {
+    "question": "Which AWS service offers on-demand access to AWS security and compliance reports?",
+    "choices": [
+      "A. AWS CloudTrail",
+      "B. AWS Artifact",
+      "C. AWS Trusted Advisor",
+      "D. AWS Config"
+    ],
+    "fullText": "Correct! AWS Artifact offers on-demand access to AWS security and compliance reports."
+  }
+]
