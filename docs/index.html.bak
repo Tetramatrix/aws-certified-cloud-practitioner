@@ -3,7 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AWS Quiz</title>
+    <title>AWS Certified Cloud Ppractitioner</title>
+    
+     <!-- Meta Description (Important for SEO) -->
+    <meta name="description" content="Test your AWS Certified Cloud Practitioner knowledge with this free interactive quiz. Prepare for your AWS certification with real exam-style questions!">
+    
+    <!-- Keywords (Google ignores it, but some search engines use it) -->
+    <meta name="keywords" content="AWS Certified Cloud Practitioner, AWS quiz, AWS certification, free AWS practice test, cloud computing, Amazon Web Services">
+    
+    <!-- Author -->
+    <meta name="author" content="Tetramatrix">
+    
+    <!-- Open Graph (For Social Media Sharing) -->
+    <meta property="og:title" content="AWS Certified Cloud Practitioner - Free Practice Quiz">
+    <meta property="og:description" content="Test your AWS knowledge with this free interactive quiz. Get ready for the AWS Certified Cloud Practitioner exam!">
+    <meta property="og:image" content="https://tetramatrix.github.io/aws-certified-cloud-practitioner/aws-quiz-thumbnail.jpg">
+    <meta property="og:url" content="https://tetramatrix.github.io/aws-certified-cloud-practitioner/aws-quiz">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card (For Twitter Sharing) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AWS Certified Cloud Practitioner - Free Practice Quiz">
+    <meta name="twitter:description" content="Test your AWS knowledge with this free interactive quiz. Get ready for the AWS Certified Cloud Practitioner exam!">
+    <meta name="twitter:image" content="https://tetramatrix.github.io/aws-certified-cloud-practitioner/aws-quiz-thumbnail.jpg">
+    
+    <!-- Canonical URL (Avoid Duplicate Content Issues) -->
+    <link rel="canonical" href="https://tetramatrix.github.io/aws-certified-cloud-practitioner/aws-quiz">
+    
+    <!-- Robots Meta (Tell Search Engines What to Do) -->
+    <meta name="robots" content="index, follow">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://tetramatrix.github.io/aws-certified-cloud-practitioner/favicon.png">
+    
+    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
         body {
@@ -19,9 +52,34 @@
             border-radius: 10px;
             box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
         }
-        button {
+        .choice {
+            display: block;
+            width: 100%;
             padding: 10px;
+            margin: 5px 0;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .choice:hover {
+            background-color: #f0f0f0;
+        }
+        .correct {
+            background-color: #4CAF50 !important;
+            color: white;
+        }
+        .incorrect {
+            background-color: #FF5733 !important;
+            color: white;
+        }
+        #answer {
+            font-weight: bold;
             margin-top: 10px;
+        }
+        button#next {
+            margin-top: 10px;
+            padding: 10px;
             cursor: pointer;
         }
     </style>
@@ -31,11 +89,15 @@
 <div class="quiz-container">
     <h2 id="question">Loading question...</h2>
     <div id="choices"></div>
+    <p id="answer"></p>
+    <button id="next" style="display:none;">Next Question</button>
     <button id="quit">Quit</button>
 </div>
 
 <script>
     let questions = [];
+    let selectedQuestion = null;
+    let correctAnswers = [];
 
     function loadQuestion() {
         if (questions.length === 0) {
@@ -44,23 +106,37 @@
         }
 
         let randomIndex = Math.floor(Math.random() * questions.length);
-        let selectedQuestion = questions[randomIndex];
+        selectedQuestion = questions[randomIndex];
 
         $("#question").text(selectedQuestion.question);
         $("#choices").empty();
+        $("#answer").empty();
+        $("#next").hide();
+
+        correctAnswers = selectedQuestion.correctAnswers || []; 
 
         selectedQuestion.choices.forEach((choice, index) => {
-            $("#choices").append(`<button class="choice" data-answer="${choice}">${choice}</button><br>`);
+            $("#choices").append(`<button class="choice" data-answer="${choice}">${choice}</button>`);
         });
 
         $(".choice").click(function() {
-            alert(selectedQuestion.fullText);
-            loadQuestion();
+            let selectedAnswer = $(this).data("answer");
+
+            if (correctAnswers.includes(selectedAnswer)) {
+                $(this).addClass("correct");
+            } else {
+                $(this).addClass("incorrect");
+            }
+
+            // Show full explanation
+            $("#answer").text(selectedQuestion.fullText);
+            $(".choice").prop("disabled", true); // Disable further selections
+            $("#next").show();
         });
     }
 
     function fetchQuestions() {
-        $.getJSON("https://tetramatrix.github.io/aws-certified-cloud-practitioner/docs/questions.json", function(data) {
+        $.getJSON("https://tetramatrix.github.io/aws-certified-cloud-practitioner/questions.json", function(data) {
             questions = data;
             loadQuestion();
         }).fail(function() {
@@ -76,6 +152,10 @@
                 alert("You have quit the quiz.");
             }
         });
+    });
+
+    $("#next").click(function() {
+        loadQuestion();
     });
 
     $(document).ready(function() {
