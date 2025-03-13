@@ -60,7 +60,7 @@
     }
 
     function fetchQuestions() {
-        $.getJSON("https://tetramatrix.github.io/aws-certified-cloud-practitioner/docs/questions.json", function(data) {
+        $.getJSON("https://tetramatrix.github.io/aws-certified-cloud-practitioner/questions.json", function(data) {
             questions = data;
             loadQuestion();
         }).fail(function() {
