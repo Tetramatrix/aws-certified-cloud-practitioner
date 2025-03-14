@@ -85,7 +85,7 @@
         <button id="submit" class="hidden">Submit Answer</button>
         <button id="next" class="hidden">Next Question</button>
     </div>
-    <p id="feedback">200+ questions...</p>
+    <p id="feedback">200+ questions.</p>
 </div>
 
 <script>
