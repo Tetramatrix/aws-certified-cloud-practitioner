@@ -74,6 +74,10 @@
         .hidden {
             display: none;
         }
+        #info {
+				    font-size: 12px; /* Smaller font size for info */
+				    color: #555;     /* Optional: Slightly lighter color */
+				}
     </style>
 </head>
 <body>
@@ -87,7 +91,8 @@
         <button id="submit" class="hidden">Submit Answer</button>
         <button id="next" class="hidden">Next Question</button>
     </div>
-    <p id="feedback">200+ questions.</p>
+    <p id="feedback" class="hidden"></p>
+    <p id="info">200+ questions.</p>
 </div>
 
 <script>

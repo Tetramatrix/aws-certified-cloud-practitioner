@@ -51,6 +51,7 @@
             max-width: 500px;
             margin: auto;
             padding: 20px;
+            padding-bottom: 30px; /* Increased padding at the bottom */
             border: 1px solid #ccc;
             border-radius: 10px;
             box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
@@ -86,7 +87,8 @@
         <button id="submit" class="hidden">Submit Answer</button>
         <button id="next" class="hidden">Next Question</button>
     </div>
-    <p id="feedback">200+ questions.</p>
+    <p id="feedback" class="hidden"></p>
+    <p id="info">200+ questions.</p>
 </div>
 
 <script>
