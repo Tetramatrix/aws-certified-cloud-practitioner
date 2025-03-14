@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AWS Certified Cloud Ppractitioner</title>
+    <title>AWS Certified Cloud Practitioner</title>
     
      <!-- Meta Description (Important for SEO) -->
     <meta name="description" content="Test your AWS Certified Cloud Practitioner knowledge with this free interactive quiz. Prepare for your AWS certification with real exam-style questions!">
@@ -40,7 +40,7 @@
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6449563648591184"
 	     crossorigin="anonymous"></script>
 
- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -65,7 +65,7 @@
             background-color: #f9f9f9;
         }
         .choice.selected {
-            background-color: #c3e6cb; /* Green highlight for selected answers */
+            background-color: #c3e6cb; /* Highlight selected */
         }
         .button-container {
             margin-top: 10px;
@@ -77,6 +77,7 @@
 </head>
 <body>
 
+<h2>AWS Certified Cloud Practitioner</h2>
 <div class="quiz-container">
     <h2 id="question">Loading question...</h2>
     <div id="choices"></div>
@@ -84,13 +85,12 @@
         <button id="submit" class="hidden">Submit Answer</button>
         <button id="next" class="hidden">Next Question</button>
     </div>
-    <p id="feedback" class="hidden"></p>
+    <p id="feedback">200+ questions...</p>
 </div>
 
 <script>
     let questions = [];
     let currentQuestion = null;
-    let selectedAnswers = [];
 
     function loadQuestion() {
         if (questions.length === 0) {
@@ -106,30 +106,19 @@
         $("#feedback").addClass("hidden").text("");
         $("#submit").addClass("hidden");
         $("#next").addClass("hidden");
-        selectedAnswers = [];
 
         currentQuestion.choices.forEach((choice, index) => {
             $("#choices").append(`<div class="choice" data-index="${index}">${choice}</div>`);
         });
 
         $(".choice").click(function() {
-            let index = $(this).data("index");
-            if (selectedAnswers.includes(index)) {
-                selectedAnswers = selectedAnswers.filter(i => i !== index);
-                $(this).removeClass("selected");
-            } else {
-                selectedAnswers.push(index);
-                $(this).addClass("selected");
-            }
+            $(this).toggleClass("selected");
             $("#submit").removeClass("hidden");
         });
     }
 
-    function checkAnswer() {
-        let correctAnswers = currentQuestion.correctAnswers || []; // Array of correct answer indices
-        let isCorrect = JSON.stringify(selectedAnswers.sort()) === JSON.stringify(correctAnswers.sort());
-
-        $("#feedback").removeClass("hidden").text(isCorrect ? "✅ Correct!" : "❌ Incorrect! Correct answers: " + correctAnswers.map(i => currentQuestion.choices[i]).join(", "));
+    function showExplanation() {
+        $("#feedback").removeClass("hidden").text(currentQuestion.fullText);
         $("#submit").addClass("hidden");
         $("#next").removeClass("hidden");
     }
@@ -143,7 +132,7 @@
         });
     }
 
-    $("#submit").click(checkAnswer);
+    $("#submit").click(showExplanation);
     $("#next").click(loadQuestion);
 
     $(document).ready(fetchQuestions);
