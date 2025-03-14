@@ -77,8 +77,9 @@
 </head>
 <body>
 
-<h2>AWS Certified Cloud Practitioner</h2>
+
 <div class="quiz-container">
+    <h2>AWS Certified Cloud Practitioner Quiz</h2>
     <h2 id="question">Loading question...</h2>
     <div id="choices"></div>
     <div class="button-container">
