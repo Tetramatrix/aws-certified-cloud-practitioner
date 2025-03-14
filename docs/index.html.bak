@@ -74,13 +74,20 @@
         .hidden {
             display: none;
         }
+        #info {
+				    font-size: 12px; /* Smaller font size for info */
+				    color: #555;     /* Optional: Slightly lighter color */
+				}
+				h3 {
+    			text-decoration: underline; /* Underline effect for h3 elements */
+				}
     </style>
 </head>
 <body>
 
 
 <div class="quiz-container">
-    <h2>AWS Certified Cloud Practitioner Quiz</h2>
+    <h3>AWS Certified Cloud Practitioner Quiz</h3>
     <h2 id="question">Loading question...</h2>
     <div id="choices"></div>
     <div class="button-container">
@@ -88,7 +95,7 @@
         <button id="next" class="hidden">Next Question</button>
     </div>
     <p id="feedback" class="hidden"></p>
-    <p id="info">200+ questions.</p>
+    <p id="info">>This quiz contains over 200 questions.</p>
 </div>
 
 <script>
