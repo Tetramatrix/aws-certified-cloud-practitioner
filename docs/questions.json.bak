@@ -137,7 +137,7 @@
       "C. AWS Config",
       "D. AWS Inspector"
     ],
-    "fullText": "The correct answer is B. The pay-as-you-go pricing model for AWS services allows users to pay only for the resources they consume, which helps in reducing capital expenditures."
+    "fullText": "The correct answer is B"
   },
   {
     "question": "What are the benefits of using the AWS Cloud for companies with customers in many countries around the world? (Choose two.)",
