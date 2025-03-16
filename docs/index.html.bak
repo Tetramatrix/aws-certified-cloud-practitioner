@@ -95,7 +95,7 @@
         <button id="next" class="hidden">Next Question</button>
     </div>
     <p id="feedback" class="hidden"></p>
-    <p id="info">>This quiz contains over 200 questions.</p>
+    <p id="info">This quiz contains over 200 questions.</p>
 </div>
 
 <script>
